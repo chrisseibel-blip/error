@@ -1,423 +1,462 @@
-Chriss-Air:~ chris$ npx react-native init MyNewApp
-This will walk you through creating a new React Native project in /Users/chris/MyNewApp
-Using yarn v1.22.19
-Installing react-native...
-yarn add v1.22.19
-warning ../package.json: No license field
-info No lockfile found.
-[1/4] 🔍  Resolving packages...
-warning react-native > react-native-codegen > jscodeshift > micromatch > snapdragon > source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
-warning react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro > metro-minify-uglify > uglify-es@3.3.9: support for ECMAScript is superseded by `uglify-js` as of v3.13.0
-warning react-native > react-native-codegen > jscodeshift > micromatch > snapdragon > source-map-resolve > resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
-warning react-native > react-native-codegen > jscodeshift > micromatch > snapdragon > source-map-resolve > source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
-warning react-native > react-native-codegen > jscodeshift > micromatch > snapdragon > source-map-resolve > urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
-[2/4] 🚚  Fetching packages...
-[3/4] 🔗  Linking dependencies...
-warning "react-native > metro-react-native-babel-transformer@0.73.9" has unmet peer dependency "@babel/core@*".
-warning "react-native > react-shallow-renderer@16.15.0" has unmet peer dependency "react@^16.0.0 || ^17.0.0 || ^18.0.0".
-warning "react-native > use-sync-external-store@1.2.0" has unmet peer dependency "react@^16.8.0 || ^17.0.0 || ^18.0.0".
-warning "react-native > react-native-codegen > jscodeshift@0.13.1" has unmet peer dependency "@babel/preset-env@^7.1.6".
-warning " > react-native@0.71.6" has unmet peer dependency "react@18.2.0".
-[4/4] 🔨  Building fresh packages...
-success Saved lockfile.
-success Saved 379 new dependencies.
-info Direct dependencies
-└─ react-native@0.71.6
-info All dependencies
-├─ @ampproject/remapping@2.2.1
-├─ @babel/code-frame@7.21.4
-├─ @babel/compat-data@7.21.4
-├─ @babel/helper-compilation-targets@7.21.4
-├─ @babel/helper-create-class-features-plugin@7.21.4
-├─ @babel/helper-create-regexp-features-plugin@7.21.4
-├─ @babel/helper-function-name@7.21.0
-├─ @babel/helper-hoist-variables@7.18.6
-├─ @babel/helper-member-expression-to-functions@7.21.0
-├─ @babel/helper-module-imports@7.21.4
-├─ @babel/helper-plugin-utils@7.20.2
-├─ @babel/helper-string-parser@7.19.4
-├─ @babel/helper-validator-identifier@7.19.1
-├─ @babel/helper-wrap-function@7.20.5
-├─ @babel/helpers@7.21.0
-├─ @babel/highlight@7.18.6
-├─ @babel/plugin-proposal-async-generator-functions@7.20.7
-├─ @babel/plugin-proposal-class-properties@7.18.6
-├─ @babel/plugin-proposal-export-default-from@7.18.10
-├─ @babel/plugin-proposal-nullish-coalescing-operator@7.18.6
-├─ @babel/plugin-proposal-optional-catch-binding@7.18.6
-├─ @babel/plugin-proposal-optional-chaining@7.21.0
-├─ @babel/plugin-syntax-async-generators@7.8.4
-├─ @babel/plugin-syntax-class-properties@7.12.13
-├─ @babel/plugin-syntax-dynamic-import@7.8.3
-├─ @babel/plugin-syntax-export-default-from@7.18.6
-├─ @babel/plugin-syntax-flow@7.21.4
-├─ @babel/plugin-syntax-jsx@7.21.4
-├─ @babel/plugin-syntax-nullish-coalescing-operator@7.8.3
-├─ @babel/plugin-syntax-object-rest-spread@7.8.3
-├─ @babel/plugin-syntax-optional-catch-binding@7.8.3
-├─ @babel/plugin-syntax-optional-chaining@7.8.3
-├─ @babel/plugin-syntax-typescript@7.21.4
-├─ @babel/plugin-transform-async-to-generator@7.20.7
-├─ @babel/plugin-transform-block-scoped-functions@7.18.6
-├─ @babel/plugin-transform-flow-strip-types@7.21.0
-├─ @babel/plugin-transform-for-of@7.21.0
-├─ @babel/plugin-transform-member-expression-literals@7.18.6
-├─ @babel/plugin-transform-modules-commonjs@7.21.2
-├─ @babel/plugin-transform-named-capturing-groups-regex@7.20.5
-├─ @babel/plugin-transform-object-super@7.18.6
-├─ @babel/plugin-transform-parameters@7.21.3
-├─ @babel/plugin-transform-property-literals@7.18.6
-├─ @babel/plugin-transform-react-jsx-self@7.21.0
-├─ @babel/plugin-transform-react-jsx-source@7.19.6
-├─ @babel/plugin-transform-runtime@7.21.4
-├─ @babel/plugin-transform-sticky-regex@7.18.6
-├─ @babel/plugin-transform-typescript@7.21.3
-├─ @babel/plugin-transform-unicode-regex@7.18.6
-├─ @babel/preset-flow@7.21.4
-├─ @babel/preset-typescript@7.21.4
-├─ @babel/register@7.21.0
-├─ @babel/regjsgen@0.8.0
-├─ @babel/runtime@7.21.0
-├─ @babel/template@7.20.7
-├─ @babel/traverse@7.21.4
-├─ @babel/types@7.21.4
-├─ @hapi/topo@5.1.0
-├─ @jest/create-cache-key-function@29.5.0
-├─ @jest/environment@29.5.0
-├─ @jridgewell/resolve-uri@3.1.0
-├─ @jridgewell/set-array@1.1.2
-├─ @jridgewell/source-map@0.3.3
-├─ @jridgewell/sourcemap-codec@1.4.14
-├─ @react-native-community/cli-clean@10.1.1
-├─ @react-native-community/cli-doctor@10.2.2
-├─ @react-native-community/cli-hermes@10.2.0
-├─ @react-native-community/cli-platform-android@10.2.0
-├─ @react-native-community/cli-platform-ios@10.2.1
-├─ @react-native-community/cli-plugin-metro@10.2.2
-├─ @react-native-community/cli-types@10.0.0
-├─ @react-native-community/cli@10.2.2
-├─ @react-native/assets@1.0.0
-├─ @react-native/normalize-color@2.1.0
-├─ @react-native/polyfills@2.0.0
-├─ @sideway/address@4.1.4
-├─ @sideway/formula@3.0.1
-├─ @sideway/pinpoint@2.0.0
-├─ @sinclair/typebox@0.25.24
-├─ @sinonjs/commons@2.0.0
-├─ @sinonjs/fake-timers@10.0.2
-├─ @types/istanbul-lib-report@3.0.0
-├─ @types/stack-utils@2.0.1
-├─ @types/yargs@17.0.24
-├─ accepts@1.3.8
-├─ acorn@8.8.2
-├─ anser@1.4.10
-├─ ansi-fragments@0.2.1
-├─ ansi-regex@5.0.1
-├─ anymatch@3.1.3
-├─ appdirsjs@1.2.7
-├─ argparse@1.0.10
-├─ arr-flatten@1.1.0
-├─ asap@2.0.6
-├─ assign-symbols@1.0.0
-├─ ast-types@0.14.2
-├─ astral-regex@1.0.0
-├─ async-limiter@1.0.1
-├─ async@3.2.4
-├─ atob@2.1.2
-├─ babel-core@7.0.0-bridge.0
-├─ babel-plugin-polyfill-corejs2@0.3.3
-├─ babel-plugin-polyfill-corejs3@0.6.0
-├─ babel-plugin-polyfill-regenerator@0.4.1
-├─ babel-plugin-syntax-trailing-function-commas@7.0.0-beta.0
-├─ balanced-match@1.0.2
-├─ base@0.11.2
-├─ base64-js@1.5.1
-├─ bl@4.1.0
-├─ brace-expansion@1.1.11
-├─ braces@3.0.2
-├─ browserslist@4.21.5
-├─ bser@2.1.1
-├─ buffer-from@1.1.2
-├─ buffer@5.7.1
-├─ bytes@3.0.0
-├─ cache-base@1.0.1
-├─ caller-callsite@2.0.0
-├─ caller-path@2.0.0
-├─ callsites@2.0.0
-├─ camelcase@5.3.1
-├─ caniuse-lite@1.0.30001478
-├─ class-utils@0.3.6
-├─ cli-cursor@3.1.0
-├─ cli-spinners@2.8.0
-├─ cliui@8.0.1
-├─ clone-deep@4.0.1
-├─ clone@1.0.4
-├─ collection-visit@1.0.0
-├─ color-convert@2.0.1
-├─ color-name@1.1.4
-├─ colorette@1.4.0
-├─ command-exists@1.2.9
-├─ commander@9.5.0
-├─ commondir@1.0.1
-├─ compressible@2.0.18
-├─ compression@1.7.4
-├─ concat-map@0.0.1
-├─ convert-source-map@1.9.0
-├─ copy-descriptor@0.1.1
-├─ core-js-compat@3.30.1
-├─ core-util-is@1.0.3
-├─ cosmiconfig@5.2.1
-├─ cross-spawn@6.0.5
-├─ dayjs@1.11.7
-├─ debug@2.6.9
-├─ decode-uri-component@0.2.2
-├─ deepmerge@3.3.0
-├─ defaults@1.0.4
-├─ denodeify@1.2.1
-├─ deprecated-react-native-prop-types@3.0.1
-├─ destroy@1.2.0
-├─ electron-to-chromium@1.4.365
-├─ emoji-regex@8.0.0
-├─ end-of-stream@1.4.4
-├─ envinfo@7.8.1
-├─ error-ex@1.3.2
-├─ error-stack-parser@2.1.4
-├─ errorhandler@1.5.1
-├─ escape-string-regexp@2.0.0
-├─ esprima@4.0.1
-├─ etag@1.8.1
-├─ event-target-shim@5.0.1
-├─ expand-brackets@2.1.4
-├─ extglob@2.0.4
-├─ fast-xml-parser@4.2.0
-├─ fb-watchman@2.0.2
-├─ fill-range@7.0.1
-├─ finalhandler@1.1.2
-├─ find-cache-dir@2.1.0
-├─ flow-parser@0.185.2
-├─ for-in@1.0.2
-├─ fresh@0.5.2
-├─ fs-extra@8.1.0
-├─ fs.realpath@1.0.0
-├─ fsevents@2.3.2
-├─ function-bind@1.1.1
-├─ gensync@1.0.0-beta.2
-├─ get-caller-file@2.0.5
-├─ get-stream@4.1.0
-├─ get-value@2.0.6
-├─ has-value@1.0.0
-├─ has@1.0.3
-├─ hermes-estree@0.8.0
-├─ http-errors@2.0.0
-├─ ieee754@1.2.1
-├─ image-size@0.6.3
-├─ import-fresh@2.0.0
-├─ imurmurhash@0.1.4
-├─ inflight@1.0.6
-├─ inherits@2.0.4
-├─ is-accessor-descriptor@1.0.0
-├─ is-arrayish@0.2.1
-├─ is-core-module@2.12.0
-├─ is-data-descriptor@1.0.0
-├─ is-descriptor@1.0.2
-├─ is-directory@0.3.1
-├─ is-fullwidth-code-point@3.0.0
-├─ is-interactive@1.0.0
-├─ is-plain-object@2.0.4
-├─ is-stream@1.1.0
-├─ is-windows@1.0.2
-├─ is-wsl@1.1.0
-├─ isarray@1.0.0
-├─ isexe@2.0.0
-├─ jest-environment-node@29.5.0
-├─ jest-get-type@26.3.0
-├─ jest-message-util@29.5.0
-├─ jest-regex-util@27.5.1
-├─ jest-serializer@27.5.1
-├─ jest-validate@26.6.2
-├─ js-tokens@4.0.0
-├─ js-yaml@3.14.1
-├─ jsc-android@250231.0.0
-├─ jscodeshift@0.13.1
-├─ jsesc@2.5.2
-├─ json-parse-better-errors@1.0.2
-├─ json5@2.2.3
-├─ jsonfile@4.0.0
-├─ kleur@3.0.3
-├─ leven@3.1.0
-├─ locate-path@5.0.0
-├─ lodash.debounce@4.0.8
-├─ log-symbols@4.1.0
-├─ logkitty@0.7.1
-├─ loose-envify@1.4.0
-├─ lru-cache@5.1.1
-├─ make-dir@2.1.0
-├─ makeerror@1.0.12
-├─ map-visit@1.0.0
-├─ memoize-one@5.2.1
-├─ merge-stream@2.0.0
-├─ metro-file-map@0.73.9
-├─ metro-inspector-proxy@0.73.9
-├─ metro-minify-terser@0.73.9
-├─ metro-minify-uglify@0.73.9
-├─ metro-transform-worker@0.73.9
-├─ mime-db@1.52.0
-├─ mime-types@2.1.35
-├─ mime@2.6.0
-├─ mimic-fn@2.1.0
-├─ minimatch@3.1.2
-├─ minimist@1.2.8
-├─ mixin-deep@1.3.2
-├─ mkdirp@0.5.6
-├─ ms@2.0.0
-├─ nanomatch@1.2.13
-├─ negotiator@0.6.3
-├─ neo-async@2.6.2
-├─ nice-try@1.0.5
-├─ nocache@3.0.4
-├─ node-dir@0.1.17
-├─ node-fetch@2.6.9
-├─ node-int64@0.4.0
-├─ node-releases@2.0.10
-├─ node-stream-zip@1.15.0
-├─ normalize-path@3.0.0
-├─ npm-run-path@2.0.2
-├─ ob1@0.73.9
-├─ object-copy@0.1.0
-├─ on-finished@2.4.1
-├─ on-headers@1.0.2
-├─ once@1.4.0
-├─ onetime@5.1.2
-├─ open@6.4.0
-├─ os-tmpdir@1.0.2
-├─ p-finally@1.0.0
-├─ p-limit@2.3.0
-├─ p-locate@4.1.0
-├─ p-try@2.2.0
-├─ parse-json@4.0.0
-├─ pascalcase@0.1.1
-├─ path-is-absolute@1.0.1
-├─ path-key@2.0.1
-├─ path-parse@1.0.7
-├─ picocolors@1.0.0
-├─ picomatch@2.3.1
-├─ pify@4.0.1
-├─ pirates@4.0.5
-├─ pkg-dir@3.0.0
-├─ posix-character-classes@0.1.1
-├─ process-nextick-args@2.0.1
-├─ promise@8.3.0
-├─ prop-types@15.8.1
-├─ pump@3.0.0
-├─ range-parser@1.2.1
-├─ react-devtools-core@4.27.4
-├─ react-is@18.2.0
-├─ react-native-codegen@0.71.5
-├─ react-native-gradle-plugin@0.71.17
-├─ react-native@0.71.6
-├─ react-shallow-renderer@16.15.0
-├─ readable-stream@3.6.2
-├─ readline@1.3.0
-├─ recast@0.20.5
-├─ regenerate-unicode-properties@10.1.0
-├─ regenerator-runtime@0.13.11
-├─ regexpu-core@5.3.2
-├─ regjsparser@0.9.1
-├─ repeat-element@1.1.4
-├─ require-main-filename@2.0.0
-├─ resolve-from@3.0.0
-├─ resolve-url@0.2.1
-├─ resolve@1.22.3
-├─ restore-cursor@3.1.0
-├─ ret@0.1.15
-├─ safe-buffer@5.1.2
-├─ scheduler@0.23.0
-├─ semver@6.3.0
-├─ send@0.18.0
-├─ serialize-error@2.1.0
-├─ set-blocking@2.0.0
-├─ set-value@2.0.1
-├─ setprototypeof@1.2.0
-├─ shallow-clone@3.0.1
-├─ shebang-command@1.2.0
-├─ shebang-regex@1.0.0
-├─ shell-quote@1.8.1
-├─ sisteransi@1.0.5
-├─ slash@3.0.0
-├─ slice-ansi@2.1.0
-├─ snapdragon-node@2.1.1
-├─ snapdragon-util@3.0.1
-├─ source-map-resolve@0.5.3
-├─ source-map-support@0.5.21
-├─ source-map-url@0.4.1
-├─ split-string@3.1.0
-├─ sprintf-js@1.0.3
-├─ stack-utils@2.0.6
-├─ stackframe@1.3.4
-├─ stacktrace-parser@0.1.10
-├─ static-extend@0.1.2
-├─ string_decoder@1.3.0
-├─ strip-eof@1.0.0
-├─ strnum@1.0.5
-├─ sudo-prompt@9.2.1
-├─ supports-color@7.2.0
-├─ supports-preserve-symlinks-flag@1.0.0
-├─ temp@0.8.4
-├─ terser@5.16.9
-├─ throat@5.0.0
-├─ through2@2.0.5
-├─ tmpl@1.0.5
-├─ to-fast-properties@2.0.0
-├─ to-object-path@0.3.0
-├─ to-regex-range@5.0.1
-├─ toidentifier@1.0.1
-├─ tr46@0.0.3
-├─ type-detect@4.0.8
-├─ type-fest@0.7.1
-├─ uglify-es@3.3.9
-├─ unicode-canonical-property-names-ecmascript@2.0.0
-├─ unicode-match-property-ecmascript@2.0.0
-├─ unicode-match-property-value-ecmascript@2.1.0
-├─ unicode-property-aliases-ecmascript@2.1.0
-├─ union-value@1.0.1
-├─ universalify@0.1.2
-├─ unpipe@1.0.0
-├─ unset-value@1.0.0
-├─ update-browserslist-db@1.0.10
-├─ urix@0.1.0
-├─ use-sync-external-store@1.2.0
-├─ use@3.1.1
-├─ util-deprecate@1.0.2
-├─ utils-merge@1.0.1
-├─ vary@1.1.2
-├─ walker@1.0.8
-├─ webidl-conversions@3.0.1
-├─ whatwg-fetch@3.6.2
-├─ whatwg-url@5.0.0
-├─ which-module@2.0.0
-├─ which@1.3.1
-├─ wrap-ansi@7.0.0
-├─ write-file-atomic@2.4.3
-├─ xtend@4.0.2
-├─ y18n@5.0.8
-├─ yallist@3.1.1
-├─ yargs-parser@21.1.1
-└─ yocto-queue@0.1.0
-✨  Done in 21.29s.
-/usr/local/lib/node_modules/react-native-cli/index.js:302
-  cli.init(root, projectName);
-      ^
+Chriss-Air:GME chris$ cd ~/GME/PME\ 12.21.07
+Chriss-Air:PME 12.21.07 chris$ ls
+App.tsx         __tests__       app.json        index.js        metro.config.js package.json    vendor
+Gemfile         android         babel.config.js ios             node_modules    tsconfig.json   yarn.lock
+Chriss-Air:PME 12.21.07 chris$ bundle install
+Fetching gem metadata from https://rubygems.org/...........
+Resolving dependencies...
+Fetching rake 13.0.6
+Installing rake 13.0.6
+Using rexml 3.2.5
+Using concurrent-ruby 1.2.2
+Using minitest 5.18.0
+Using zeitwerk 2.6.7
+Fetching builder 3.2.4
+Fetching erubi 1.12.0
+Fetching mini_portile2 2.8.1
+Fetching racc 1.6.2
+Installing erubi 1.12.0
+Installing mini_portile2 2.8.1
+Installing builder 3.2.4
+Fetching crass 1.0.6
+Installing racc 1.6.2 with native extensions
+Fetching rack 2.2.6.4
+Installing crass 1.0.6
+Fetching nio4r 2.5.9
+Fetching websocket-extensions 0.1.5
+Installing websocket-extensions 0.1.5
+Fetching marcel 1.0.2
+Fetching mini_mime 1.1.2
+Installing rack 2.2.6.4
+Installing nio4r 2.5.9 with native extensions
+Installing mini_mime 1.1.2
+Fetching date 3.3.3
+Installing marcel 1.0.2
+Installing date 3.3.3 with native extensions
+Fetching timeout 0.3.2
+Using public_suffix 4.0.7
+Using httpclient 2.8.3
+Installing json 2.6.3 with native extensions
+Installing timeout 0.3.2
+Fetching atomos 0.1.3
+Using bundler 2.4.12
+Fetching claide 1.1.0
+Installing atomos 0.1.3
+Fetching fuzzy_match 2.0.4
+Fetching nap 1.1.0
+Installing claide 1.1.0
+Fetching netrc 0.11.0
+Installing nap 1.1.0
+Installing fuzzy_match 2.0.4
+Fetching ffi 1.15.5
+Fetching cocoapods-deintegrate 1.0.5
+Installing netrc 0.11.0
+Fetching cocoapods-downloader 1.6.3
+Installing cocoapods-deintegrate 1.0.5
+Fetching cocoapods-search 1.0.1
+Fetching cocoapods-try 1.2.0
+Installing cocoapods-downloader 1.6.3
+Fetching colored2 3.1.2
+Installing cocoapods-try 1.2.0
+Installing cocoapods-search 1.0.1
+Fetching escape 0.0.4
+Installing colored2 3.1.2
+Installing ffi 1.15.5 with native extensions
+Fetching fourflusher 2.3.1
+Fetching gh_inspector 1.1.3
+Installing escape 0.0.4
+Fetching molinillo 0.8.0
+Installing fourflusher 2.3.1
+Installing gh_inspector 1.1.3
+Fetching ruby-macho 2.5.1
+Installing molinillo 0.8.0
+Fetching nanaimo 0.3.0
+Fetching method_source 1.0.0
+Installing nanaimo 0.3.0
+Installing ruby-macho 2.5.1
+Installing method_source 1.0.0
+Fetching thor 1.2.1
+Using CFPropertyList 3.0.6
+Using i18n 1.12.0
+Using tzinfo 2.0.6
+Fetching sqlite3 1.6.2
+Fetching websocket-driver 0.7.5
+Installing thor 1.2.1
+Fetching rack-test 2.1.0
+Installing websocket-driver 0.7.5 with native extensions
+Installing rack-test 2.1.0
+Fetching sprockets 4.2.0
+Using addressable 2.8.4
+Fetching net-protocol 0.2.1
+Installing sprockets 4.2.0
+Installing net-protocol 0.2.1
+Fetching cocoapods-plugins 1.0.0
+Installing cocoapods-plugins 1.0.0
+Fetching cocoapods-trunk 1.6.0
+Fetching xcodeproj 1.22.0
+Installing cocoapods-trunk 1.6.0
+Using activesupport 6.1.7.3
+Fetching net-pop 0.1.2
+Installing xcodeproj 1.22.0
+Installing net-pop 0.1.2
+Fetching net-smtp 0.3.3
+Fetching globalid 1.1.0
+Installing globalid 1.1.0
+Installing net-smtp 0.3.3
+Installing sqlite3 1.6.2 with native extensions
+Fetching activemodel 6.1.7.3
+Installing activemodel 6.1.7.3
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
 
-TypeError: cli.init is not a function
-    at run (/usr/local/lib/node_modules/react-native-cli/index.js:302:7)
-    at createProject (/usr/local/lib/node_modules/react-native-cli/index.js:249:3)
-    at init (/usr/local/lib/node_modules/react-native-cli/index.js:200:5)
-    at Object.<anonymous> (/usr/local/lib/node_modules/react-native-cli/index.js:153:7)
-    at Module._compile (node:internal/modules/cjs/loader:1254:14)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
-    at Module.load (node:internal/modules/cjs/loader:1117:32)
-    at Module._load (node:internal/modules/cjs/loader:958:12)
-    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
-    at node:internal/main/run_main_module:23:47
+    current directory: /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/gems/racc-1.6.2/ext/racc/cparse
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /Library/Ruby/Site/2.6.0 -r ./siteconf20230415-3732-15w0c9y.rb extconf.rb
+checking for rb_block_call()... *** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
 
-Node.js v18.16.0
+Provided configuration options:
+        --with-opt-dir
+        --without-opt-dir
+        --with-opt-include
+        --without-opt-include=${opt-dir}/include
+        --with-opt-lib
+        --without-opt-lib=${opt-dir}/lib
+        --with-make-prog
+        --without-make-prog
+        --srcdir=.
+        --curdir
+        --ruby=/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/$(RUBY_BASE_NAME)
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:467:in `try_do': The compiler failed to generate an executable file. (RuntimeError)
+You have to install development tools first.
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:546:in `block in try_link0'
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/tmpdir.rb:93:in `mktmpdir'
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:543:in `try_link0'
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:570:in `try_link'
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:782:in `try_func'
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:1069:in `block in have_func'
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:959:in `block in checking_for'
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:361:in `block (2 levels) in postpone'
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:331:in `open'
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:361:in `block in postpone'
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:331:in `open'
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:357:in `postpone'
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:958:in `checking_for'
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:1068:in `have_func'
+        from extconf.rb:6:in `<main>'
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/racc-1.6.2/mkmf.log
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/gems/racc-1.6.2 for inspection.
+Results logged to /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/racc-1.6.2/gem_make.out
+
+  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:90:in `run'
+  /Library/Ruby/Site/2.6.0/rubygems/ext/ext_conf_builder.rb:48:in `block in build'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/tempfile.rb:295:in `open'
+  /Library/Ruby/Site/2.6.0/rubygems/ext/ext_conf_builder.rb:28:in `build'
+  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:156:in `build_extension'
+  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:190:in `block in build_extensions'
+  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:187:in `each'
+  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:187:in `build_extensions'
+  /Library/Ruby/Site/2.6.0/rubygems/installer.rb:821:in `build_extensions'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/rubygems_gem_installer.rb:72:in `build_extensions'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/rubygems_gem_installer.rb:28:in `install'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/source/rubygems.rb:198:in `install'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/gem_installer.rb:54:in `install'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/gem_installer.rb:16:in `install_from_spec'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/parallel_installer.rb:156:in `do_install'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/parallel_installer.rb:147:in `block in worker_pool'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:62:in `apply_func'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:57:in `block in process_queue'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:54:in `loop'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:54:in `process_queue'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:90:in `block (2 levels) in create_threads'
+
+An error occurred while installing racc (1.6.2), and Bundler cannot continue.
+
+In Gemfile:
+  rails was resolved to 6.1.7.3, which depends on
+    actioncable was resolved to 6.1.7.3, which depends on
+      actionpack was resolved to 6.1.7.3, which depends on
+        actionview was resolved to 6.1.7.3, which depends on
+          rails-dom-testing was resolved to 2.0.3, which depends on
+            nokogiri was resolved to 1.13.10, which depends on
+              racc
+
+
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+    current directory: /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/gems/nio4r-2.5.9/ext/nio4r
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /Library/Ruby/Site/2.6.0 -r ./siteconf20230415-3732-15nx4gk.rb extconf.rb
+checking for unistd.h... *** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+        --with-opt-dir
+        --without-opt-dir
+        --with-opt-include
+        --without-opt-include=${opt-dir}/include
+        --with-opt-lib
+        --without-opt-lib=${opt-dir}/lib
+        --with-make-prog
+        --without-make-prog
+        --srcdir=.
+        --curdir
+        --ruby=/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/$(RUBY_BASE_NAME)
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:467:in `try_do': The compiler failed to generate an executable file. (RuntimeError)
+You have to install development tools first.
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:585:in `block in try_compile'
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:534:in `with_werror'
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:585:in `try_compile'
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:1109:in `block in have_header'
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:959:in `block in checking_for'
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:361:in `block (2 levels) in postpone'
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:331:in `open'
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:361:in `block in postpone'
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:331:in `open'
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:357:in `postpone'
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:958:in `checking_for'
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:1108:in `have_header'
+        from extconf.rb:18:in `<main>'
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/nio4r-2.5.9/mkmf.log
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/gems/nio4r-2.5.9 for inspection.
+Results logged to /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/nio4r-2.5.9/gem_make.out
+
+  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:90:in `run'
+  /Library/Ruby/Site/2.6.0/rubygems/ext/ext_conf_builder.rb:48:in `block in build'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/tempfile.rb:295:in `open'
+  /Library/Ruby/Site/2.6.0/rubygems/ext/ext_conf_builder.rb:28:in `build'
+  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:156:in `build_extension'
+  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:190:in `block in build_extensions'
+  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:187:in `each'
+  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:187:in `build_extensions'
+  /Library/Ruby/Site/2.6.0/rubygems/installer.rb:821:in `build_extensions'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/rubygems_gem_installer.rb:72:in `build_extensions'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/rubygems_gem_installer.rb:28:in `install'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/source/rubygems.rb:198:in `install'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/gem_installer.rb:54:in `install'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/gem_installer.rb:16:in `install_from_spec'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/parallel_installer.rb:156:in `do_install'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/parallel_installer.rb:147:in `block in worker_pool'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:62:in `apply_func'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:57:in `block in process_queue'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:54:in `loop'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:54:in `process_queue'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:90:in `block (2 levels) in create_threads'
+
+An error occurred while installing nio4r (2.5.9), and Bundler cannot continue.
+
+In Gemfile:
+  rails was resolved to 6.1.7.3, which depends on
+    actioncable was resolved to 6.1.7.3, which depends on
+      nio4r
+
+
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+    current directory: /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /Library/Ruby/Site/2.6.0 -r ./siteconf20230415-3732-u6boit.rb extconf.rb
+creating Makefile
+
+current directory: /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make "DESTDIR="
+make: *** No rule to make target
+`/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/universal-darwin21/ruby/config.h',
+needed by `websocket_mask.o'.  Stop.
+
+make failed, exit code 2
+
+Gem files will remain installed in /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.5 for inspection.
+Results logged to /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/websocket-driver-0.7.5/gem_make.out
+
+  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:90:in `run'
+  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:42:in `block in make'
+  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:34:in `each'
+  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:34:in `make'
+  /Library/Ruby/Site/2.6.0/rubygems/ext/ext_conf_builder.rb:64:in `block in build'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/tempfile.rb:295:in `open'
+  /Library/Ruby/Site/2.6.0/rubygems/ext/ext_conf_builder.rb:28:in `build'
+  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:156:in `build_extension'
+  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:190:in `block in build_extensions'
+  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:187:in `each'
+  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:187:in `build_extensions'
+  /Library/Ruby/Site/2.6.0/rubygems/installer.rb:821:in `build_extensions'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/rubygems_gem_installer.rb:72:in `build_extensions'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/rubygems_gem_installer.rb:28:in `install'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/source/rubygems.rb:198:in `install'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/gem_installer.rb:54:in `install'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/gem_installer.rb:16:in `install_from_spec'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/parallel_installer.rb:156:in `do_install'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/parallel_installer.rb:147:in `block in worker_pool'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:62:in `apply_func'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:57:in `block in process_queue'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:54:in `loop'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:54:in `process_queue'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:90:in `block (2 levels) in create_threads'
+
+An error occurred while installing websocket-driver (0.7.5), and Bundler cannot continue.
+
+In Gemfile:
+  rails was resolved to 6.1.7.3, which depends on
+    actioncable was resolved to 6.1.7.3, which depends on
+      websocket-driver
+
+
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+    current directory: /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/gems/date-3.3.3/ext/date
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /Library/Ruby/Site/2.6.0 -r ./siteconf20230415-3732-9knimw.rb extconf.rb
+checking for rb_category_warn()... *** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+        --with-opt-dir
+        --without-opt-dir
+        --with-opt-include
+        --without-opt-include=${opt-dir}/include
+        --with-opt-lib
+        --without-opt-lib=${opt-dir}/lib
+        --with-make-prog
+        --without-make-prog
+        --srcdir=.
+        --curdir
+        --ruby=/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/$(RUBY_BASE_NAME)
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:467:in `try_do': The compiler failed to generate an executable file. (RuntimeError)
+You have to install development tools first.
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:546:in `block in try_link0'
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/tmpdir.rb:93:in `mktmpdir'
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:543:in `try_link0'
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:570:in `try_link'
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:782:in `try_func'
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:1069:in `block in have_func'
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:959:in `block in checking_for'
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:361:in `block (2 levels) in postpone'
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:331:in `open'
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:361:in `block in postpone'
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:331:in `open'
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:357:in `postpone'
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:958:in `checking_for'
+        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:1068:in `have_func'
+        from extconf.rb:6:in `<main>'
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/date-3.3.3/mkmf.log
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/gems/date-3.3.3 for inspection.
+Results logged to /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/date-3.3.3/gem_make.out
+
+  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:90:in `run'
+  /Library/Ruby/Site/2.6.0/rubygems/ext/ext_conf_builder.rb:48:in `block in build'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/tempfile.rb:295:in `open'
+  /Library/Ruby/Site/2.6.0/rubygems/ext/ext_conf_builder.rb:28:in `build'
+  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:156:in `build_extension'
+  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:190:in `block in build_extensions'
+  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:187:in `each'
+  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:187:in `build_extensions'
+  /Library/Ruby/Site/2.6.0/rubygems/installer.rb:821:in `build_extensions'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/rubygems_gem_installer.rb:72:in `build_extensions'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/rubygems_gem_installer.rb:28:in `install'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/source/rubygems.rb:198:in `install'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/gem_installer.rb:54:in `install'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/gem_installer.rb:16:in `install_from_spec'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/parallel_installer.rb:156:in `do_install'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/parallel_installer.rb:147:in `block in worker_pool'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:62:in `apply_func'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:57:in `block in process_queue'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:54:in `loop'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:54:in `process_queue'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:90:in `block (2 levels) in create_threads'
+
+An error occurred while installing date (3.3.3), and Bundler cannot continue.
+
+In Gemfile:
+  rails was resolved to 6.1.7.3, which depends on
+    actionmailbox was resolved to 6.1.7.3, which depends on
+      mail was resolved to 2.8.1, which depends on
+        net-imap was resolved to 0.3.4, which depends on
+          date
+
+
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+    current directory: /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/gems/json-2.6.3/ext/json/ext/generator
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /Library/Ruby/Site/2.6.0 -r ./siteconf20230415-3732-1fgnm05.rb extconf.rb
+creating Makefile
+
+current directory: /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/gems/json-2.6.3/ext/json/ext/generator
+make "DESTDIR=" clean
+
+current directory: /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/gems/json-2.6.3/ext/json/ext/generator
+make "DESTDIR="
+compiling generator.c
+In file included from generator.c:1:
+In file included from ./../fbuffer/fbuffer.h:5:
+In file included from
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby.h:33:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby/ruby.h:24:10:
+fatal error: 'ruby/config.h' file not found
+#include "ruby/config.h"
+         ^~~~~~~~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby/ruby.h:24:10:
+note: did not find header 'config.h' in framework 'ruby' (loaded from
+'/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks')
+1 error generated.
+make: *** [generator.o] Error 1
+
+make failed, exit code 2
+
+Gem files will remain installed in /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/gems/json-2.6.3 for inspection.
+Results logged to /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/json-2.6.3/gem_make.out
+
+  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:90:in `run'
+  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:42:in `block in make'
+  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:34:in `each'
+  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:34:in `make'
+  /Library/Ruby/Site/2.6.0/rubygems/ext/ext_conf_builder.rb:64:in `block in build'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/tempfile.rb:295:in `open'
+  /Library/Ruby/Site/2.6.0/rubygems/ext/ext_conf_builder.rb:28:in `build'
+  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:156:in `build_extension'
+  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:190:in `block in build_extensions'
+  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:187:in `each'
+  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:187:in `build_extensions'
+  /Library/Ruby/Site/2.6.0/rubygems/installer.rb:821:in `build_extensions'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/rubygems_gem_installer.rb:72:in `build_extensions'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/rubygems_gem_installer.rb:28:in `install'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/source/rubygems.rb:198:in `install'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/gem_installer.rb:54:in `install'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/gem_installer.rb:16:in `install_from_spec'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/parallel_installer.rb:156:in `do_install'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/parallel_installer.rb:147:in `block in worker_pool'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:62:in `apply_func'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:57:in `block in process_queue'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:54:in `loop'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:54:in `process_queue'
+  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:90:in `block (2 levels) in create_threads'
+
+An error occurred while installing json (2.6.3), and Bundler cannot continue.
+
+In Gemfile:
+  cocoapods was resolved to 1.12.0, which depends on
+    cocoapods-core was resolved to 1.12.0, which depends on
+      algoliasearch was resolved to 1.27.5, which depends on
+        json
