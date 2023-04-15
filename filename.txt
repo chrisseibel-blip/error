@@ -1,194 +1,848 @@
-Chriss-Air:GME chris$ bundle install
-Fetching gem metadata from https://rubygems.org/...........
-Resolving dependencies...
-Fetching rake 13.0.6
-
-Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/rake-13.0.6.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/rake-13.0.6.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/rake-13.0.6.gem`. It is likely that you need to grant write permissions for that path.
-
-Fetching minitest 5.18.0
-Fetching concurrent-ruby 1.2.2
-Fetching zeitwerk 2.6.7
-Fetching builder 3.2.4
-
-Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/minitest-5.18.0.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/concurrent-ruby-1.2.2.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/minitest-5.18.0.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/minitest-5.18.0.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/concurrent-ruby-1.2.2.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/concurrent-ruby-1.2.2.gem`. It is likely that you need to grant write permissions for that path.
-
-Fetching erubi 1.12.0
-
-Fetching racc 1.6.2
-
-Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/builder-3.2.4.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/zeitwerk-2.6.7.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/zeitwerk-2.6.7.gem`. It is likely that you need to grant write permissions for that path.
-
-
-Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/erubi-1.12.0.gem`. It is likely that you need to grant write permissions for that path.
-Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/builder-3.2.4.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/racc-1.6.2.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/erubi-1.12.0.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/zeitwerk-2.6.7.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/builder-3.2.4.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/racc-1.6.2.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/erubi-1.12.0.gem`. It is likely that you need to grant write permissions for that path.
-
-Fetching crass 1.0.6
-
-Fetching rack 2.2.6.4
-
-Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/crass-1.0.6.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/crass-1.0.6.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/crass-1.0.6.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/racc-1.6.2.gem`. It is likely that you need to grant write permissions for that path.
-
-
-Fetching websocket-extensions 0.1.5
-Fetching nio4r 2.5.9
-
-
-Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/rack-2.2.6.4.gem`. It is likely that you need to grant write permissions for that path.
-Fetching marcel 1.0.2
-
-Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/websocket-extensions-0.1.5.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/rack-2.2.6.4.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/websocket-extensions-0.1.5.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/nio4r-2.5.9.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/websocket-extensions-0.1.5.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/rack-2.2.6.4.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/marcel-1.0.2.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/nio4r-2.5.9.gem`. It is likely that you need to grant write permissions for that path.
-
-Fetching mini_mime 1.1.2
-
-Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/marcel-1.0.2.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/nio4r-2.5.9.gem`. It is likely that you need to grant write permissions for that path.
-
-Fetching date 3.3.3
-
-Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/marcel-1.0.2.gem`. It is likely that you need to grant write permissions for that path.
-
-Fetching timeout 0.3.2
-
-Using bundler 2.4.12
-Fetching method_source 1.0.0
-
-Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/mini_mime-1.1.2.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/mini_mime-1.1.2.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/method_source-1.0.0.gem`. It is likely that you need to grant write permissions for that path.
-
-
-Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/mini_mime-1.1.2.gem`. It is likely that you need to grant write permissions for that path.
-Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/timeout-0.3.2.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/date-3.3.3.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/timeout-0.3.2.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/method_source-1.0.0.gem`. It is likely that you need to grant write permissions for that path.
-
-Fetching thor 1.2.1
-
-Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/date-3.3.3.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/timeout-0.3.2.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/method_source-1.0.0.gem`. It is likely that you need to grant write permissions for that path.
-
-
-Fetching sqlite3 1.4.4
-
-Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/date-3.3.3.gem`. It is likely that you need to grant write permissions for that path.
-
-
-Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/thor-1.2.1.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/thor-1.2.1.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/thor-1.2.1.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/sqlite3-1.4.4.gem`. It is likely that you need to grant write permissions for that path.
-
-
-Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/sqlite3-1.4.4.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/sqlite3-1.4.4.gem`. It is likely that you need to grant write permissions for that path.
-
-Bundler::PermissionError: There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/rake-13.0.6.gem`. It is likely that you need to grant write
-permissions for that path.
-  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/shared_helpers.rb:105:in `rescue in filesystem_access'
-  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/shared_helpers.rb:102:in `filesystem_access'
-  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/rubygems_integration.rb:483:in `block in download_gem'
-  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/retry.rb:40:in `run'
-  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/retry.rb:30:in `attempt'
-  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/rubygems_integration.rb:474:in `download_gem'
-  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/source/rubygems.rb:481:in `download_gem'
-  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/source/rubygems.rb:443:in `fetch_gem'
-  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/source/rubygems.rb:427:in `fetch_gem_if_possible'
-  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/source/rubygems.rb:156:in `install'
-  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/gem_installer.rb:54:in `install'
-  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/gem_installer.rb:16:in `install_from_spec'
-  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/parallel_installer.rb:156:in `do_install'
-  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/parallel_installer.rb:84:in `call'
-  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/parallel_installer.rb:67:in `call'
-  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/installer.rb:244:in `install_in_parallel'
-  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/installer.rb:201:in `install'
-  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/installer.rb:89:in `block in run'
-  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/process_lock.rb:19:in `rescue in lock'
-  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/process_lock.rb:15:in `lock'
-  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/installer.rb:71:in `run'
-  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/installer.rb:23:in `install'
-  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/cli/install.rb:62:in `run'
-  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/cli.rb:261:in `block in install'
-  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/settings.rb:131:in `temporary'
-  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/cli.rb:260:in `install'
-  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
-  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'
-  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/vendor/thor/lib/thor.rb:392:in `dispatch'
-  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/cli.rb:34:in `dispatch'
-  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/vendor/thor/lib/thor/base.rb:485:in `start'
-  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/cli.rb:28:in `start'
-  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/exe/bundle:45:in `block in <top (required)>'
-  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/friendly_errors.rb:117:in `with_friendly_errors'
-  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/exe/bundle:33:in `<top (required)>'
-  /usr/local/bin/bundle:23:in `load'
-  /usr/local/bin/bundle:23:in `<main>'
-
-An error occurred while installing rake (13.0.6), and Bundler cannot continue.
-
-In Gemfile:
-  rails was resolved to 6.1.7.3, which depends on
-    railties was resolved to 6.1.7.3, which depends on
-      rake
+Chriss-Air:~ chris$ pip install kivy
+Collecting kivy
+  Downloading Kivy-2.1.0.tar.gz (23.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 23.8/23.8 MB 10.6 MB/s eta 0:00:00
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting Kivy-Garden>=0.1.4 (from kivy)
+  Downloading Kivy_Garden-0.1.5-py3-none-any.whl (4.6 kB)
+Collecting docutils (from kivy)
+  Downloading docutils-0.19-py3-none-any.whl (570 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 570.5/570.5 kB 11.5 MB/s eta 0:00:00
+Requirement already satisfied: pygments in ./Library/Python/3.11/lib/python/site-packages (from kivy) (2.13.0)
+Requirement already satisfied: requests in /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages (from Kivy-Garden>=0.1.4->kivy) (2.28.2)
+Requirement already satisfied: charset-normalizer<4,>=2 in /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages (from requests->Kivy-Garden>=0.1.4->kivy) (3.1.0)
+Requirement already satisfied: idna<4,>=2.5 in /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages (from requests->Kivy-Garden>=0.1.4->kivy) (3.4)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages (from requests->Kivy-Garden>=0.1.4->kivy) (1.26.15)
+Requirement already satisfied: certifi>=2017.4.17 in /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages (from requests->Kivy-Garden>=0.1.4->kivy) (2022.12.7)
+Building wheels for collected packages: kivy
+  Building wheel for kivy (pyproject.toml) ... -
+_debug.c:24053:13: warning: code will never be executed [-Wunreachable-code]
+        __pyx_r = 0;
+                  ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/cgl_backend/cgl_debug.c:24286:13: warning: code will never be executed [-Wunreachable-code]
+        __pyx_r = 0;
+                  ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/window/window_info.c:1767:5: error: incomplete definition of type 'struct _frame'
+          __Pyx_PyFrame_SetLineNumber(py_frame, py_line);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/window/window_info.c:438:62: note: expanded from macro '__Pyx_PyFrame_SetLineNumber'
+        #define __Pyx_PyFrame_SetLineNumber(frame, lineno)  (frame)->f_lineno = (lineno)
+                                                            ~~~~~~~^
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/pytypedefs.h:22:16: note: forward declaration of 'struct _frame'
+      typedef struct _frame PyFrameObject;
+                     ^
+      1 error generated.
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/cgl_backend/cgl_debug.c:38521:5: error: incomplete definition of type 'struct _frame'
+          __Pyx_PyFrame_SetLineNumber(py_frame, py_line);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/cgl_backend/cgl_debug.c:438:62: note: expanded from macro '__Pyx_PyFrame_SetLineNumber'
+        #define __Pyx_PyFrame_SetLineNumber(frame, lineno)  (frame)->f_lineno = (lineno)
+                                                            ~~~~~~~^
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/pytypedefs.h:22:16: note: forward declaration of 'struct _frame'
+      typedef struct _frame PyFrameObject;
+                     ^
+      14 warnings and 1 error generated.
+      20 errors generated.
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/vertex_instructions.c:67354:21: warning: fallthrough annotation in unreachable code [-Wunreachable-code-fallthrough]
+                          CYTHON_FALLTHROUGH;
+                          ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/vertex_instructions.c:284:34: note: expanded from macro 'CYTHON_FALLTHROUGH'
+            #define CYTHON_FALLTHROUGH __attribute__((fallthrough))
+                                       ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/vertex_instructions.c:67365:21: warning: fallthrough annotation in unreachable code [-Wunreachable-code-fallthrough]
+                          CYTHON_FALLTHROUGH;
+                          ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/vertex_instructions.c:284:34: note: expanded from macro 'CYTHON_FALLTHROUGH'
+            #define CYTHON_FALLTHROUGH __attribute__((fallthrough))
+                                       ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/vertex_instructions.c:67552:21: warning: fallthrough annotation in unreachable code [-Wunreachable-code-fallthrough]
+                          CYTHON_FALLTHROUGH;
+                          ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/vertex_instructions.c:284:34: note: expanded from macro 'CYTHON_FALLTHROUGH'
+            #define CYTHON_FALLTHROUGH __attribute__((fallthrough))
+                                       ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/vertex_instructions.c:67563:21: warning: fallthrough annotation in unreachable code [-Wunreachable-code-fallthrough]
+                          CYTHON_FALLTHROUGH;
+                          ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/vertex_instructions.c:284:34: note: expanded from macro 'CYTHON_FALLTHROUGH'
+            #define CYTHON_FALLTHROUGH __attribute__((fallthrough))
+                                       ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/vertex_instructions.c:67959:43: warning: 'ob_shash' is deprecated [-Wdeprecated-declarations]
+                  hash1 = ((PyBytesObject*)s1)->ob_shash;
+                                                ^
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/bytesobject.h:7:5: note: 'ob_shash' has been explicitly marked deprecated here
+          Py_DEPRECATED(3.11) Py_hash_t ob_shash;
+          ^
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/pyport.h:336:54: note: expanded from macro 'Py_DEPRECATED'
+      #define Py_DEPRECATED(VERSION_UNUSED) __attribute__((__deprecated__))
+                                                           ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/vertex_instructions.c:67960:43: warning: 'ob_shash' is deprecated [-Wdeprecated-declarations]
+                  hash2 = ((PyBytesObject*)s2)->ob_shash;
+                                                ^
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/bytesobject.h:7:5: note: 'ob_shash' has been explicitly marked deprecated here
+          Py_DEPRECATED(3.11) Py_hash_t ob_shash;
+          ^
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/pyport.h:336:54: note: expanded from macro 'Py_DEPRECATED'
+      #define Py_DEPRECATED(VERSION_UNUSED) __attribute__((__deprecated__))
+                                                           ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/vertex_instructions.c:68162:21: warning: fallthrough annotation in unreachable code [-Wunreachable-code-fallthrough]
+                          CYTHON_FALLTHROUGH;
+                          ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/vertex_instructions.c:284:34: note: expanded from macro 'CYTHON_FALLTHROUGH'
+            #define CYTHON_FALLTHROUGH __attribute__((fallthrough))
+                                       ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/vertex_instructions.c:68173:21: warning: fallthrough annotation in unreachable code [-Wunreachable-code-fallthrough]
+                          CYTHON_FALLTHROUGH;
+                          ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/vertex_instructions.c:284:34: note: expanded from macro 'CYTHON_FALLTHROUGH'
+            #define CYTHON_FALLTHROUGH __attribute__((fallthrough))
+                                       ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/vertex_instructions.c:68732:21: warning: fallthrough annotation in unreachable code [-Wunreachable-code-fallthrough]
+                          CYTHON_FALLTHROUGH;
+                          ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/vertex_instructions.c:284:34: note: expanded from macro 'CYTHON_FALLTHROUGH'
+            #define CYTHON_FALLTHROUGH __attribute__((fallthrough))
+                                       ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/vertex_instructions.c:68743:21: warning: fallthrough annotation in unreachable code [-Wunreachable-code-fallthrough]
+                          CYTHON_FALLTHROUGH;
+                          ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/vertex_instructions.c:284:34: note: expanded from macro 'CYTHON_FALLTHROUGH'
+            #define CYTHON_FALLTHROUGH __attribute__((fallthrough))
+                                       ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/vertex_instructions.c:69602:5: error: incomplete definition of type 'struct _frame'
+          __Pyx_PyFrame_SetLineNumber(py_frame, py_line);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/vertex_instructions.c:438:62: note: expanded from macro '__Pyx_PyFrame_SetLineNumber'
+        #define __Pyx_PyFrame_SetLineNumber(frame, lineno)  (frame)->f_lineno = (lineno)
+                                                            ~~~~~~~^
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/pytypedefs.h:22:16: note: forward declaration of 'struct _frame'
+      typedef struct _frame PyFrameObject;
+                     ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/tesselator.c:20702:43: warning: 'ob_shash' is deprecated [-Wdeprecated-declarations]
+                  hash1 = ((PyBytesObject*)s1)->ob_shash;
+                                                ^
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/bytesobject.h:7:5: note: 'ob_shash' has been explicitly marked deprecated here
+          Py_DEPRECATED(3.11) Py_hash_t ob_shash;
+          ^
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/pyport.h:336:54: note: expanded from macro 'Py_DEPRECATED'
+      #define Py_DEPRECATED(VERSION_UNUSED) __attribute__((__deprecated__))
+                                                           ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/tesselator.c:20703:43: warning: 'ob_shash' is deprecated [-Wdeprecated-declarations]
+                  hash2 = ((PyBytesObject*)s2)->ob_shash;
+                                                ^
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/bytesobject.h:7:5: note: 'ob_shash' has been explicitly marked deprecated here
+          Py_DEPRECATED(3.11) Py_hash_t ob_shash;
+          ^
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/pyport.h:336:54: note: expanded from macro 'Py_DEPRECATED'
+      #define Py_DEPRECATED(VERSION_UNUSED) __attribute__((__deprecated__))
+                                                           ^
+      11 warnings and 1 error generated.
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/tesselator.c:21441:21: warning: fallthrough annotation in unreachable code [-Wunreachable-code-fallthrough]
+                          CYTHON_FALLTHROUGH;
+                          ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/tesselator.c:284:34: note: expanded from macro 'CYTHON_FALLTHROUGH'
+            #define CYTHON_FALLTHROUGH __attribute__((fallthrough))
+                                       ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/tesselator.c:21452:21: warning: fallthrough annotation in unreachable code [-Wunreachable-code-fallthrough]
+                          CYTHON_FALLTHROUGH;
+                          ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/tesselator.c:284:34: note: expanded from macro 'CYTHON_FALLTHROUGH'
+            #define CYTHON_FALLTHROUGH __attribute__((fallthrough))
+                                       ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/tesselator.c:22010:5: error: incomplete definition of type 'struct _frame'
+          __Pyx_PyFrame_SetLineNumber(py_frame, py_line);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/tesselator.c:438:62: note: expanded from macro '__Pyx_PyFrame_SetLineNumber'
+        #define __Pyx_PyFrame_SetLineNumber(frame, lineno)  (frame)->f_lineno = (lineno)
+                                                            ~~~~~~~^
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/pytypedefs.h:22:16: note: forward declaration of 'struct _frame'
+      typedef struct _frame PyFrameObject;
+                     ^
+      4 warnings and 1 error generated.
+      In file included from /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/window/_window_sdl2.c:686:
+      In file included from /usr/local/include/SDL2/SDL.h:38:
+      In file included from /usr/local/include/SDL2/SDL_cpuinfo.h:111:
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/immintrin.h:14:2: error: "This header is only meant to be used on x86 and x64 architecture"
+      #error "This header is only meant to be used on x86 and x64 architecture"
+       ^
+      In file included from /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/window/_window_sdl2.c:686:
+      In file included from /usr/local/include/SDL2/SDL.h:38:
+      In file included from /usr/local/include/SDL2/SDL_cpuinfo.h:111:
+      In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/immintrin.h:17:
+      In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/x86gprintrin.h:15:
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/hresetintrin.h:42:27: error: invalid input constraint 'a' in asm
+        __asm__ ("hreset $0" :: "a"(__eax));
+                                ^
+      In file included from /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/window/_window_sdl2.c:686:
+      In file included from /usr/local/include/SDL2/SDL.h:38:
+      In file included from /usr/local/include/SDL2/SDL_cpuinfo.h:111:
+      In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/immintrin.h:21:
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:14:2: error: "This header is only meant to be used on x86 and x64 architecture"
+      #error "This header is only meant to be used on x86 and x64 architecture"
+       ^
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:54:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_vec_init_v2si(__i, 0);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:133:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_packsswb((__v4hi)__m1, (__v4hi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:163:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_packssdw((__v2si)__m1, (__v2si)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:193:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_packuswb((__v4hi)__m1, (__v4hi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:220:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_punpckhbw((__v8qi)__m1, (__v8qi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:243:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_punpckhwd((__v4hi)__m1, (__v4hi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:264:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_punpckhdq((__v2si)__m1, (__v2si)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:291:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_punpcklbw((__v8qi)__m1, (__v8qi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:314:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_punpcklwd((__v4hi)__m1, (__v4hi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:335:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_punpckldq((__v2si)__m1, (__v2si)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:356:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_paddb((__v8qi)__m1, (__v8qi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:377:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_paddw((__v4hi)__m1, (__v4hi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:398:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_paddd((__v2si)__m1, (__v2si)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:420:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_paddsb((__v8qi)__m1, (__v8qi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:443:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_paddsw((__v4hi)__m1, (__v4hi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:465:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_paddusb((__v8qi)__m1, (__v8qi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      fatal error: too many errors emitted, stopping now [-ferror-limit=]
+      In file included from /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/image/_img_sdl2.c:686:
+      In file included from /usr/local/include/SDL2/SDL.h:38:
+      In file included from /usr/local/include/SDL2/SDL_cpuinfo.h:111:
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/immintrin.h:14:2: error: "This header is only meant to be used on x86 and x64 architecture"
+      #error "This header is only meant to be used on x86 and x64 architecture"
+       ^
+      In file included from /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/image/_img_sdl2.c:686:
+      In file included from /usr/local/include/SDL2/SDL.h:38:
+      In file included from /usr/local/include/SDL2/SDL_cpuinfo.h:111:
+      In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/immintrin.h:17:
+      In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/x86gprintrin.h:15:
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/hresetintrin.h:42:27: error: invalid input constraint 'a' in asm
+        __asm__ ("hreset $0" :: "a"(__eax));
+                                ^
+      In file included from /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/image/_img_sdl2.c:686:
+      In file included from /usr/local/include/SDL2/SDL.h:38:
+      In file included from /usr/local/include/SDL2/SDL_cpuinfo.h:111:
+      In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/immintrin.h:21:
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:14:2: error: "This header is only meant to be used on x86 and x64 architecture"
+      #error "This header is only meant to be used on x86 and x64 architecture"
+       ^
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:54:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_vec_init_v2si(__i, 0);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:133:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_packsswb((__v4hi)__m1, (__v4hi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:163:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_packssdw((__v2si)__m1, (__v2si)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:193:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_packuswb((__v4hi)__m1, (__v4hi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:220:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_punpckhbw((__v8qi)__m1, (__v8qi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:243:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_punpckhwd((__v4hi)__m1, (__v4hi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:264:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_punpckhdq((__v2si)__m1, (__v2si)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:291:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_punpcklbw((__v8qi)__m1, (__v8qi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:314:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_punpcklwd((__v4hi)__m1, (__v4hi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:335:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_punpckldq((__v2si)__m1, (__v2si)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:356:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_paddb((__v8qi)__m1, (__v8qi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:377:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_paddw((__v4hi)__m1, (__v4hi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:398:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_paddd((__v2si)__m1, (__v2si)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:420:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_paddsb((__v8qi)__m1, (__v8qi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:443:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_paddsw((__v4hi)__m1, (__v4hi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:465:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_paddusb((__v8qi)__m1, (__v8qi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      fatal error: too many errors emitted, stopping now [-ferror-limit=]
+      In file included from /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/text/_text_sdl2.c:686:
+      In file included from /usr/local/include/SDL2/SDL.h:38:
+      In file included from /usr/local/include/SDL2/SDL_cpuinfo.h:111:
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/immintrin.h:14:2: error: "This header is only meant to be used on x86 and x64 architecture"
+      #error "This header is only meant to be used on x86 and x64 architecture"
+       ^
+      In file included from /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/text/_text_sdl2.c:686:
+      In file included from /usr/local/include/SDL2/SDL.h:38:
+      In file included from /usr/local/include/SDL2/SDL_cpuinfo.h:111:
+      In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/immintrin.h:17:
+      In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/x86gprintrin.h:15:
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/hresetintrin.h:42:27: error: invalid input constraint 'a' in asm
+        __asm__ ("hreset $0" :: "a"(__eax));
+                                ^
+      In file included from /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/text/_text_sdl2.c:686:
+      In file included from /usr/local/include/SDL2/SDL.h:38:
+      In file included from /usr/local/include/SDL2/SDL_cpuinfo.h:111:
+      In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/immintrin.h:21:
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:14:2: error: "This header is only meant to be used on x86 and x64 architecture"
+      #error "This header is only meant to be used on x86 and x64 architecture"
+       ^
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:54:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_vec_init_v2si(__i, 0);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:133:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_packsswb((__v4hi)__m1, (__v4hi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:163:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_packssdw((__v2si)__m1, (__v2si)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:193:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_packuswb((__v4hi)__m1, (__v4hi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:220:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_punpckhbw((__v8qi)__m1, (__v8qi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:243:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_punpckhwd((__v4hi)__m1, (__v4hi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:264:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_punpckhdq((__v2si)__m1, (__v2si)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:291:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_punpcklbw((__v8qi)__m1, (__v8qi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:314:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_punpcklwd((__v4hi)__m1, (__v4hi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:335:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_punpckldq((__v2si)__m1, (__v2si)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:356:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_paddb((__v8qi)__m1, (__v8qi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:377:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_paddw((__v4hi)__m1, (__v4hi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:398:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_paddd((__v2si)__m1, (__v2si)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:420:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_paddsb((__v8qi)__m1, (__v8qi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:443:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_paddsw((__v4hi)__m1, (__v4hi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:465:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_paddusb((__v8qi)__m1, (__v8qi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      fatal error: too many errors emitted, stopping now [-ferror-limit=]
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/svg.c:47059:43: warning: 'ob_shash' is deprecated [-Wdeprecated-declarations]
+                  hash1 = ((PyBytesObject*)s1)->ob_shash;
+                                                ^
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/bytesobject.h:7:5: note: 'ob_shash' has been explicitly marked deprecated here
+          Py_DEPRECATED(3.11) Py_hash_t ob_shash;
+          ^
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/pyport.h:336:54: note: expanded from macro 'Py_DEPRECATED'
+      #define Py_DEPRECATED(VERSION_UNUSED) __attribute__((__deprecated__))
+                                                           ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/svg.c:47060:43: warning: 'ob_shash' is deprecated [-Wdeprecated-declarations]
+                  hash2 = ((PyBytesObject*)s2)->ob_shash;
+                                                ^
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/bytesobject.h:7:5: note: 'ob_shash' has been explicitly marked deprecated here
+          Py_DEPRECATED(3.11) Py_hash_t ob_shash;
+          ^
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/pyport.h:336:54: note: expanded from macro 'Py_DEPRECATED'
+      #define Py_DEPRECATED(VERSION_UNUSED) __attribute__((__deprecated__))
+                                                           ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/svg.c:47923:21: warning: fallthrough annotation in unreachable code [-Wunreachable-code-fallthrough]
+                          CYTHON_FALLTHROUGH;
+                          ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/svg.c:284:34: note: expanded from macro 'CYTHON_FALLTHROUGH'
+            #define CYTHON_FALLTHROUGH __attribute__((fallthrough))
+                                       ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/svg.c:47934:21: warning: fallthrough annotation in unreachable code [-Wunreachable-code-fallthrough]
+                          CYTHON_FALLTHROUGH;
+                          ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/svg.c:284:34: note: expanded from macro 'CYTHON_FALLTHROUGH'
+            #define CYTHON_FALLTHROUGH __attribute__((fallthrough))
+                                       ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/svg.c:48076:21: warning: fallthrough annotation in unreachable code [-Wunreachable-code-fallthrough]
+                          CYTHON_FALLTHROUGH;
+                          ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/svg.c:284:34: note: expanded from macro 'CYTHON_FALLTHROUGH'
+            #define CYTHON_FALLTHROUGH __attribute__((fallthrough))
+                                       ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/svg.c:48087:21: warning: fallthrough annotation in unreachable code [-Wunreachable-code-fallthrough]
+                          CYTHON_FALLTHROUGH;
+                          ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/svg.c:284:34: note: expanded from macro 'CYTHON_FALLTHROUGH'
+            #define CYTHON_FALLTHROUGH __attribute__((fallthrough))
+                                       ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/svg.c:50419:5: error: incomplete definition of type 'struct _frame'
+          __Pyx_PyFrame_SetLineNumber(py_frame, py_line);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/svg.c:438:62: note: expanded from macro '__Pyx_PyFrame_SetLineNumber'
+        #define __Pyx_PyFrame_SetLineNumber(frame, lineno)  (frame)->f_lineno = (lineno)
+                                                            ~~~~~~~^
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/pytypedefs.h:22:16: note: forward declaration of 'struct _frame'
+      typedef struct _frame PyFrameObject;
+                     ^
+      20 errors generated.
+      20 errors generated.
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/svg.c:52220:14: error: incomplete definition of type 'struct _frame'
+                  f->f_back = PyThreadState_GetFrame(tstate);
+                  ~^
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/pytypedefs.h:22:16: note: forward declaration of 'struct _frame'
+      typedef struct _frame PyFrameObject;
+                     ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/svg.c:52257:19: error: incomplete definition of type 'struct _frame'
+              Py_CLEAR(f->f_back);
+                       ~^
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/object.h:581:44: note: expanded from macro 'Py_CLEAR'
+              PyObject *_py_tmp = _PyObject_CAST(op); \
+                                                 ^~
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/object.h:107:49: note: expanded from macro '_PyObject_CAST'
+      #define _PyObject_CAST(op) _Py_CAST(PyObject*, (op))
+                                                      ^~
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/pyport.h:24:38: note: expanded from macro '_Py_CAST'
+      #define _Py_CAST(type, expr) ((type)(expr))
+                                           ^~~~
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/pytypedefs.h:22:16: note: forward declaration of 'struct _frame'
+      typedef struct _frame PyFrameObject;
+                     ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/graphics/svg.c:52257:19: error: incomplete definition of type 'struct _frame'
+              Py_CLEAR(f->f_back);
+                       ~^
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/object.h:583:14: note: expanded from macro 'Py_CLEAR'
+                  (op) = NULL;                        \
+                   ^~
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/pytypedefs.h:22:16: note: forward declaration of 'struct _frame'
+      typedef struct _frame PyFrameObject;
+                     ^
+      6 warnings and 4 errors generated.
+      20 errors generated.
+      In file included from /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/clipboard/_clipboard_sdl2.c:686:
+      In file included from /usr/local/include/SDL2/SDL.h:38:
+      In file included from /usr/local/include/SDL2/SDL_cpuinfo.h:111:
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/immintrin.h:14:2: error: "This header is only meant to be used on x86 and x64 architecture"
+      #error "This header is only meant to be used on x86 and x64 architecture"
+       ^
+      In file included from /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/clipboard/_clipboard_sdl2.c:686:
+      In file included from /usr/local/include/SDL2/SDL.h:38:
+      In file included from /usr/local/include/SDL2/SDL_cpuinfo.h:111:
+      In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/immintrin.h:17:
+      In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/x86gprintrin.h:15:
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/hresetintrin.h:42:27: error: invalid input constraint 'a' in asm
+        __asm__ ("hreset $0" :: "a"(__eax));
+                                ^
+      In file included from /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/clipboard/_clipboard_sdl2.c:686:
+      In file included from /usr/local/include/SDL2/SDL.h:38:
+      In file included from /usr/local/include/SDL2/SDL_cpuinfo.h:111:
+      In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/immintrin.h:21:
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:14:2: error: "This header is only meant to be used on x86 and x64 architecture"
+      #error "This header is only meant to be used on x86 and x64 architecture"
+       ^
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:54:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_vec_init_v2si(__i, 0);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:133:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_packsswb((__v4hi)__m1, (__v4hi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:163:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_packssdw((__v2si)__m1, (__v2si)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:193:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_packuswb((__v4hi)__m1, (__v4hi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:220:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_punpckhbw((__v8qi)__m1, (__v8qi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:243:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_punpckhwd((__v4hi)__m1, (__v4hi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:264:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_punpckhdq((__v2si)__m1, (__v2si)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:291:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_punpcklbw((__v8qi)__m1, (__v8qi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:314:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_punpcklwd((__v4hi)__m1, (__v4hi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:335:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_punpckldq((__v2si)__m1, (__v2si)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:356:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_paddb((__v8qi)__m1, (__v8qi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:377:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_paddw((__v4hi)__m1, (__v4hi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:398:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_paddd((__v2si)__m1, (__v2si)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:420:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_paddsb((__v8qi)__m1, (__v8qi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:443:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_paddsw((__v4hi)__m1, (__v4hi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:465:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_paddusb((__v8qi)__m1, (__v8qi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      fatal error: too many errors emitted, stopping now [-ferror-limit=]
+      In file included from /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/audio/audio_sdl2.c:686:
+      In file included from /usr/local/include/SDL2/SDL.h:38:
+      In file included from /usr/local/include/SDL2/SDL_cpuinfo.h:111:
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/immintrin.h:14:2: error: "This header is only meant to be used on x86 and x64 architecture"
+      #error "This header is only meant to be used on x86 and x64 architecture"
+       ^
+      In file included from /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/audio/audio_sdl2.c:686:
+      In file included from /usr/local/include/SDL2/SDL.h:38:
+      In file included from /usr/local/include/SDL2/SDL_cpuinfo.h:111:
+      In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/immintrin.h:17:
+      In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/x86gprintrin.h:15:
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/hresetintrin.h:42:27: error: invalid input constraint 'a' in asm
+        __asm__ ("hreset $0" :: "a"(__eax));
+                                ^
+      In file included from /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/audio/audio_sdl2.c:686:
+      In file included from /usr/local/include/SDL2/SDL.h:38:
+      In file included from /usr/local/include/SDL2/SDL_cpuinfo.h:111:
+      In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/immintrin.h:21:
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:14:2: error: "This header is only meant to be used on x86 and x64 architecture"
+      #error "This header is only meant to be used on x86 and x64 architecture"
+       ^
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:54:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_vec_init_v2si(__i, 0);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:133:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_packsswb((__v4hi)__m1, (__v4hi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:163:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_packssdw((__v2si)__m1, (__v2si)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:193:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_packuswb((__v4hi)__m1, (__v4hi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:220:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_punpckhbw((__v8qi)__m1, (__v8qi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:243:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_punpckhwd((__v4hi)__m1, (__v4hi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:264:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_punpckhdq((__v2si)__m1, (__v2si)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:291:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_punpcklbw((__v8qi)__m1, (__v8qi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:314:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_punpcklwd((__v4hi)__m1, (__v4hi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:335:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_punpckldq((__v2si)__m1, (__v2si)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:356:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_paddb((__v8qi)__m1, (__v8qi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:377:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_paddw((__v4hi)__m1, (__v4hi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:398:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_paddd((__v2si)__m1, (__v2si)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:420:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_paddsb((__v8qi)__m1, (__v8qi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:443:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_paddsw((__v4hi)__m1, (__v4hi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/mmintrin.h:465:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
+          return (__m64)__builtin_ia32_paddusb((__v8qi)__m1, (__v8qi)__m2);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      fatal error: too many errors emitted, stopping now [-ferror-limit=]
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/text/_text_pango.c:6990:3: warning: 'pango_ft2_font_map_substitute_changed' is deprecated: Use 'pango_fc_font_map_substitute_changed' instead [-Wdeprecated-declarations]
+        pango_ft2_font_map_substitute_changed(PANGO_FT2_FONT_MAP(__pyx_v_cc->fontmap));
+        ^
+      /usr/local/Cellar/pango/1.50.14/include/pango-1.0/pango/pangoft2.h:125:1: note: 'pango_ft2_font_map_substitute_changed' has been explicitly marked deprecated here
+      PANGO_DEPRECATED_IN_1_48_FOR(pango_fc_font_map_substitute_changed)
+      ^
+      /usr/local/Cellar/pango/1.50.14/include/pango-1.0/pango/pango-version-macros.h:716:49: note: expanded from macro 'PANGO_DEPRECATED_IN_1_48_FOR'
+      # define PANGO_DEPRECATED_IN_1_48_FOR(f)        PANGO_DEPRECATED_FOR(f)
+                                                      ^
+      /usr/local/Cellar/pango/1.50.14/include/pango-1.0/pango/pango-version-macros.h:386:49: note: expanded from macro 'PANGO_DEPRECATED_FOR'
+      # define PANGO_DEPRECATED_FOR(f)                G_DEPRECATED_FOR(f) _PANGO_EXTERN
+                                                      ^
+      /usr/local/Cellar/glib/2.76.1/include/glib-2.0/glib/gmacros.h:1275:44: note: expanded from macro 'G_DEPRECATED_FOR'
+      #define G_DEPRECATED_FOR(f) __attribute__((__deprecated__("Use '" #f "' instead")))
+                                                 ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/text/_text_pango.c:7052:7: warning: code will never be executed [-Wunreachable-code]
+            PyErr_SetString(PyExc_ZeroDivisionError, "float division");
+            ^~~~~~~~~~~~~~~
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/text/_text_pango.c:7038:7: warning: code will never be executed [-Wunreachable-code]
+            PyErr_SetString(PyExc_ZeroDivisionError, "float division");
+            ^~~~~~~~~~~~~~~
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/text/_text_pango.c:7670:3: warning: 'pango_ft2_font_map_set_default_substitute' is deprecated: Use 'pango_fc_font_map_set_default_substitute' instead [-Wdeprecated-declarations]
+        pango_ft2_font_map_set_default_substitute(PANGO_FT2_FONT_MAP(__pyx_v_cc->fontmap), (&__pyx_f_4kivy_4core_4text_11_text_pango__ft2subst_callback), ((gpointer)(&__pyx_v_cc->ft2subst_callback_data)), NULL);
+        ^
+      /usr/local/Cellar/pango/1.50.14/include/pango-1.0/pango/pangoft2.h:120:1: note: 'pango_ft2_font_map_set_default_substitute' has been explicitly marked deprecated here
+      PANGO_DEPRECATED_IN_1_48_FOR(pango_fc_font_map_set_default_substitute)
+      ^
+      /usr/local/Cellar/pango/1.50.14/include/pango-1.0/pango/pango-version-macros.h:716:49: note: expanded from macro 'PANGO_DEPRECATED_IN_1_48_FOR'
+      # define PANGO_DEPRECATED_IN_1_48_FOR(f)        PANGO_DEPRECATED_FOR(f)
+                                                      ^
+      /usr/local/Cellar/pango/1.50.14/include/pango-1.0/pango/pango-version-macros.h:386:49: note: expanded from macro 'PANGO_DEPRECATED_FOR'
+      # define PANGO_DEPRECATED_FOR(f)                G_DEPRECATED_FOR(f) _PANGO_EXTERN
+                                                      ^
+      /usr/local/Cellar/glib/2.76.1/include/glib-2.0/glib/gmacros.h:1275:44: note: expanded from macro 'G_DEPRECATED_FOR'
+      #define G_DEPRECATED_FOR(f) __attribute__((__deprecated__("Use '" #f "' instead")))
+                                                 ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/text/_text_pango.c:11760:47: warning: 'pango_find_base_dir' is deprecated [-Wdeprecated-declarations]
+        __pyx_t_1 = __Pyx_PyInt_From_PangoDirection(pango_find_base_dir(__pyx_t_2, __pyx_t_3)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 703, __pyx_L1_error)
+                                                    ^
+      /usr/local/Cellar/pango/1.50.14/include/pango-1.0/pango/pango-bidi-type.h:106:1: note: 'pango_find_base_dir' has been explicitly marked deprecated here
+      PANGO_DEPRECATED_IN_1_44
+      ^
+      /usr/local/Cellar/pango/1.50.14/include/pango-1.0/pango/pango-version-macros.h:687:49: note: expanded from macro 'PANGO_DEPRECATED_IN_1_44'
+      # define PANGO_DEPRECATED_IN_1_44               PANGO_DEPRECATED
+                                                      ^
+      /usr/local/Cellar/pango/1.50.14/include/pango-1.0/pango/pango-version-macros.h:385:49: note: expanded from macro 'PANGO_DEPRECATED'
+      # define PANGO_DEPRECATED                       G_DEPRECATED _PANGO_EXTERN
+                                                      ^
+      /usr/local/Cellar/glib/2.76.1/include/glib-2.0/glib/gmacros.h:1265:37: note: expanded from macro 'G_DEPRECATED'
+      #define G_DEPRECATED __attribute__((__deprecated__))
+                                          ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/text/_text_pango.c:19656:43: warning: 'ob_shash' is deprecated [-Wdeprecated-declarations]
+                  hash1 = ((PyBytesObject*)s1)->ob_shash;
+                                                ^
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/bytesobject.h:7:5: note: 'ob_shash' has been explicitly marked deprecated here
+          Py_DEPRECATED(3.11) Py_hash_t ob_shash;
+          ^
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/pyport.h:336:54: note: expanded from macro 'Py_DEPRECATED'
+      #define Py_DEPRECATED(VERSION_UNUSED) __attribute__((__deprecated__))
+                                                           ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/text/_text_pango.c:19657:43: warning: 'ob_shash' is deprecated [-Wdeprecated-declarations]
+                  hash2 = ((PyBytesObject*)s2)->ob_shash;
+                                                ^
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/bytesobject.h:7:5: note: 'ob_shash' has been explicitly marked deprecated here
+          Py_DEPRECATED(3.11) Py_hash_t ob_shash;
+          ^
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/pyport.h:336:54: note: expanded from macro 'Py_DEPRECATED'
+      #define Py_DEPRECATED(VERSION_UNUSED) __attribute__((__deprecated__))
+                                                           ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/text/_text_pango.c:20744:5: error: incomplete definition of type 'struct _frame'
+          __Pyx_PyFrame_SetLineNumber(py_frame, py_line);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/text/_text_pango.c:438:62: note: expanded from macro '__Pyx_PyFrame_SetLineNumber'
+        #define __Pyx_PyFrame_SetLineNumber(frame, lineno)  (frame)->f_lineno = (lineno)
+                                                            ~~~~~~~^
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/pytypedefs.h:22:16: note: forward declaration of 'struct _frame'
+      typedef struct _frame PyFrameObject;
+                     ^
+      20 errors generated.
+      7 warnings and 1 error generated.
+      20 errors generated.
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/lib/gstplayer/_gstplayer.c:4771:5: warning: code will never be executed [-Wunreachable-code]
+          PyErr_SetString(PyExc_ZeroDivisionError, "float division");
+          ^~~~~~~~~~~~~~~
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/lib/gstplayer/_gstplayer.c:4916:5: warning: code will never be executed [-Wunreachable-code]
+          PyErr_SetString(PyExc_ZeroDivisionError, "float division");
+          ^~~~~~~~~~~~~~~
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/lib/gstplayer/_gstplayer.c:7986:5: error: incomplete definition of type 'struct _frame'
+          __Pyx_PyFrame_SetLineNumber(py_frame, py_line);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/lib/gstplayer/_gstplayer.c:438:62: note: expanded from macro '__Pyx_PyFrame_SetLineNumber'
+        #define __Pyx_PyFrame_SetLineNumber(frame, lineno)  (frame)->f_lineno = (lineno)
+                                                            ~~~~~~~^
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/pytypedefs.h:22:16: note: forward declaration of 'struct _frame'
+      typedef struct _frame PyFrameObject;
+                     ^
+      2 warnings and 1 error generated.
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/camera/camera_avfoundation.c:21244:43: warning: 'ob_shash' is deprecated [-Wdeprecated-declarations]
+                  hash1 = ((PyBytesObject*)s1)->ob_shash;
+                                                ^
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/bytesobject.h:7:5: note: 'ob_shash' has been explicitly marked deprecated here
+          Py_DEPRECATED(3.11) Py_hash_t ob_shash;
+          ^
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/pyport.h:336:54: note: expanded from macro 'Py_DEPRECATED'
+      #define Py_DEPRECATED(VERSION_UNUSED) __attribute__((__deprecated__))
+                                                           ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/camera/camera_avfoundation.c:21245:43: warning: 'ob_shash' is deprecated [-Wdeprecated-declarations]
+                  hash2 = ((PyBytesObject*)s2)->ob_shash;
+                                                ^
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/bytesobject.h:7:5: note: 'ob_shash' has been explicitly marked deprecated here
+          Py_DEPRECATED(3.11) Py_hash_t ob_shash;
+          ^
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/pyport.h:336:54: note: expanded from macro 'Py_DEPRECATED'
+      #define Py_DEPRECATED(VERSION_UNUSED) __attribute__((__deprecated__))
+                                                           ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/camera/camera_avfoundation.c:21946:21: warning: fallthrough annotation in unreachable code [-Wunreachable-code-fallthrough]
+                          CYTHON_FALLTHROUGH;
+                          ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/camera/camera_avfoundation.c:284:34: note: expanded from macro 'CYTHON_FALLTHROUGH'
+            #define CYTHON_FALLTHROUGH __attribute__((fallthrough))
+                                       ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/camera/camera_avfoundation.c:21957:21: warning: fallthrough annotation in unreachable code [-Wunreachable-code-fallthrough]
+                          CYTHON_FALLTHROUGH;
+                          ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/camera/camera_avfoundation.c:284:34: note: expanded from macro 'CYTHON_FALLTHROUGH'
+            #define CYTHON_FALLTHROUGH __attribute__((fallthrough))
+                                       ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/camera/camera_avfoundation.c:23220:5: error: member access into incomplete type 'PyFrameObject' (aka '_frame')
+          __Pyx_PyFrame_SetLineNumber(py_frame, py_line);
+          ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/camera/camera_avfoundation.c:438:62: note: expanded from macro '__Pyx_PyFrame_SetLineNumber'
+        #define __Pyx_PyFrame_SetLineNumber(frame, lineno)  (frame)->f_lineno = (lineno)
+                                                                   ^
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/pytypedefs.h:22:16: note: forward declaration of '_frame'
+      typedef struct _frame PyFrameObject;
+                     ^
+      4 warnings and 1 error generated.
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/image/img_imageio.c:6304:43: warning: 'ob_shash' is deprecated [-Wdeprecated-declarations]
+                  hash1 = ((PyBytesObject*)s1)->ob_shash;
+                                                ^
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/bytesobject.h:7:5: note: 'ob_shash' has been explicitly marked deprecated here
+          Py_DEPRECATED(3.11) Py_hash_t ob_shash;
+          ^
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/pyport.h:336:54: note: expanded from macro 'Py_DEPRECATED'
+      #define Py_DEPRECATED(VERSION_UNUSED) __attribute__((__deprecated__))
+                                                           ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/image/img_imageio.c:6305:43: warning: 'ob_shash' is deprecated [-Wdeprecated-declarations]
+                  hash2 = ((PyBytesObject*)s2)->ob_shash;
+                                                ^
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/bytesobject.h:7:5: note: 'ob_shash' has been explicitly marked deprecated here
+          Py_DEPRECATED(3.11) Py_hash_t ob_shash;
+          ^
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/pyport.h:336:54: note: expanded from macro 'Py_DEPRECATED'
+      #define Py_DEPRECATED(VERSION_UNUSED) __attribute__((__deprecated__))
+                                                           ^
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/image/img_imageio.c:7542:5: error: incomplete definition of type 'struct _frame'
+          __Pyx_PyFrame_SetLineNumber(py_frame, py_line);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/core/image/img_imageio.c:438:62: note: expanded from macro '__Pyx_PyFrame_SetLineNumber'
+        #define __Pyx_PyFrame_SetLineNumber(frame, lineno)  (frame)->f_lineno = (lineno)
+                                                            ~~~~~~~^
+      /Library/Frameworks/Python.framework/Versions/3.11/include/python3.11/pytypedefs.h:22:16: note: forward declaration of 'struct _frame'
+      typedef struct _frame PyFrameObject;
+                     ^
+      2 warnings and 1 error generated.
+      Current directory is: /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35
+      Source and initial build directory is: /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35
+      Python path is:
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35
+      /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pip/_vendor/pyproject_hooks/_in_process
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-build-env-aknzj_mr/site
+      /Library/Frameworks/Python.framework/Versions/3.11/lib/python311.zip
+      /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11
+      /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-build-env-aknzj_mr/overlay/lib/python3.11/site-packages
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-build-env-aknzj_mr/normal/lib/python3.11/site-packages
+      /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/modules
+      /Users/chris/.kivy/mods
+      
+      
+      Found Cython at /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-build-env-aknzj_mr/overlay/lib/python3.11/site-packages/Cython/__init__.py
+      Detected supported Cython version 0.29.28
+      User distribution detected, avoid portable command.
+      Using this graphics system: OpenGL ES 2
+      GStreamer framework not found, fallback on pkg-config
+      GStreamer found via pkg-config
+      Missing framework /Library/Frameworks/SDL2.framework
+      Missing framework /Library/Frameworks/SDL2_ttf.framework
+      Missing framework /Library/Frameworks/SDL2_image.framework
+      Missing framework /Library/Frameworks/SDL2_mixer.framework
+      SDL2 frameworks not found, fallback on pkg-config
+      SDL2 found via pkg-config
+      Xcode detected at b'/Applications/Xcode.app/Contents/Developer', and using OS X12.6 sdk
+      Pango: pangoft2 found via pkg-config
+      {'libraries': ['pangoft2-1.0', 'pango-1.0', 'gobject-2.0', 'glib-2.0', 'intl', 'harfbuzz', 'fontconfig', 'freetype'], 'include_dirs': ['/private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/include', '/usr/local/Cellar/pango/1.50.14/include/pango-1.0', '/usr/local/Cellar/harfbuzz/7.1.0/include/harfbuzz', '/usr/local/Cellar/pango/1.50.14/include/pango-1.0', '/usr/local/Cellar/glib/2.76.1/include', '/usr/local/Cellar/fribidi/1.0.12/include/fribidi', '/usr/local/Cellar/cairo/1.16.0_5/include/cairo', '/usr/local/Cellar/pixman/0.42.2/include/pixman-1', '/usr/local/Cellar/libxcb/1.15_1/include', '/usr/local/Cellar/libxrender/0.9.11/include', '/usr/local/Cellar/libxext/1.3.5/include', '/usr/local/Cellar/libx11/1.8.4/include', '/usr/local/Cellar/libxcb/1.15_1/include', '/usr/local/Cellar/libxau/1.0.11/include', '/usr/local/Cellar/libxdmcp/1.1.4/include', '/usr/local/Cellar/glib/2.76.1/include', '/usr/local/Cellar/harfbuzz/7.1.0/include/harfbuzz', '/usr/local/Cellar/glib/2.76.1/include/glib-2.0', '/usr/local/Cellar/glib/2.76.1/lib/glib-2.0/include', '/usr/local/opt/gettext/include', '/usr/local/Cellar/pcre2/10.42/include', '/usr/local/Cellar/graphite2/1.3.14/include', '/usr/local/Cellar/fontconfig/2.14.2/include', '/usr/local/opt/freetype/include/freetype2', '/usr/local/Cellar/libpng/1.6.39/include/libpng16', '/usr/local/Cellar/xorgproto/2022.2/include', '/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include/ffi'], 'library_dirs': ['/usr/local/Cellar/pango/1.50.14/lib', '/usr/local/Cellar/glib/2.76.1/lib', '/usr/local/opt/gettext/lib', '/usr/local/Cellar/harfbuzz/7.1.0/lib', '/usr/local/Cellar/fontconfig/2.14.2/lib', '/usr/local/opt/freetype/lib'], 'extra_link_args': ['-F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.6.sdk/System/Library/Frameworks'], 'extra_compile_args': ['-F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.6.sdk/System/Library/Frameworks'], 'depends': ['lib/pango/pangoft2.pxi', 'lib/pango/pangoft2.h']}
+      ERROR: Dependency for context.pyx not resolved: config.pxi
+      ERROR: Dependency for compiler.pyx not resolved: config.pxi
+      ERROR: Dependency for context_instructions.pyx not resolved: config.pxi
+      ERROR: Dependency for fbo.pyx not resolved: config.pxi
+      ERROR: Dependency for gl_instructions.pyx not resolved: config.pxi
+      ERROR: Dependency for instructions.pyx not resolved: config.pxi
+      ERROR: Dependency for opengl.pyx not resolved: config.pxi
+      ERROR: Dependency for opengl_utils.pyx not resolved: config.pxi
+      ERROR: Dependency for shader.pyx not resolved: config.pxi
+      ERROR: Dependency for stencil_instructions.pyx not resolved: config.pxi
+      ERROR: Dependency for scissor_instructions.pyx not resolved: config.pxi
+      ERROR: Dependency for texture.pyx not resolved: config.pxi
+      ERROR: Dependency for vbo.pyx not resolved: config.pxi
+      ERROR: Dependency for vertex.pyx not resolved: config.pxi
+      ERROR: Dependency for vertex_instructions.pyx not resolved: config.pxi
+      ERROR: Dependency for cgl.pyx not resolved: config.pxi
+      ERROR: Dependency for cgl_mock.pyx not resolved: config.pxi
+      ERROR: Dependency for cgl_gl.pyx not resolved: config.pxi
+      ERROR: Dependency for cgl_glew.pyx not resolved: config.pxi
+      ERROR: Dependency for cgl_sdl2.pyx not resolved: config.pxi
+      ERROR: Dependency for svg.pyx not resolved: config.pxi
+      Building extensions in parallel using 4 cores
+      Updated build directory to: build/lib.macosx-10.9-universal2-cpython-311
+      Build configuration is:
+       * use_rpi = 0
+       * use_egl = 0
+       * use_opengl_es2 = 1
+       * use_opengl_mock = 0
+       * use_sdl2 = 1
+       * use_pangoft2 = 1
+       * use_ios = 0
+       * use_android = 0
+       * use_mesagl = 0
+       * use_x11 = 0
+       * use_wayland = 0
+       * use_gstreamer = 1
+       * use_avfoundation = 1
+       * use_osx_frameworks = 1
+       * debug_gl = 0
+       * kivy_sdl_gl_alpha_size = 8
+       * debug = False
+      Updated build/lib.macosx-10.9-universal2-cpython-311/kivy/include/config.h
+      Updated /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/include/config.h
+      Updated build/lib.macosx-10.9-universal2-cpython-311/kivy/include/config.pxi
+      Updated /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/include/config.pxi
+      Updated build/lib.macosx-10.9-universal2-cpython-311/kivy/setupconfig.py
+      Updated /private/var/folders/0z/xwxwb6_12p3_w5yg5v7my5vr0000gn/T/pip-install-lzryfs5d/kivy_8247ddfe35df4c08b0e8447ba1a37f35/kivy/setupconfig.py
+      Detected compiler is unix
+       error: command '/usr/bin/clang' failed with exit code 1
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building wheel for kivy
+Failed to build kivy
+ERROR: Could not build wheels for kivy, which is required to install pyproject.toml-based projects
