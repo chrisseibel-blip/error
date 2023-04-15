@@ -1,4 +1,4 @@
-Chriss-Air:~ chris$ pip install kivy
+Chriss-Air:~ chris$ pip3 install kivy
 Collecting kivy
   Downloading Kivy-2.1.0.tar.gz (23.8 MB)
      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 23.8/23.8 MB 10.6 MB/s eta 0:00:00
