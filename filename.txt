@@ -1,462 +1,194 @@
-Chriss-Air:GME chris$ cd ~/GME/PME\ 12.21.07
-Chriss-Air:PME 12.21.07 chris$ ls
-App.tsx         __tests__       app.json        index.js        metro.config.js package.json    vendor
-Gemfile         android         babel.config.js ios             node_modules    tsconfig.json   yarn.lock
-Chriss-Air:PME 12.21.07 chris$ bundle install
+Chriss-Air:GME chris$ bundle install
 Fetching gem metadata from https://rubygems.org/...........
 Resolving dependencies...
 Fetching rake 13.0.6
-Installing rake 13.0.6
-Using rexml 3.2.5
-Using concurrent-ruby 1.2.2
-Using minitest 5.18.0
-Using zeitwerk 2.6.7
+
+Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/rake-13.0.6.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/rake-13.0.6.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/rake-13.0.6.gem`. It is likely that you need to grant write permissions for that path.
+
+Fetching minitest 5.18.0
+Fetching zeitwerk 2.6.7
 Fetching builder 3.2.4
+Fetching concurrent-ruby 1.2.2
+
+Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/builder-3.2.4.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/zeitwerk-2.6.7.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/minitest-5.18.0.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/builder-3.2.4.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/zeitwerk-2.6.7.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/minitest-5.18.0.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/builder-3.2.4.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/zeitwerk-2.6.7.gem`. It is likely that you need to grant write permissions for that path.
+
 Fetching erubi 1.12.0
-Fetching mini_portile2 2.8.1
+
 Fetching racc 1.6.2
-Installing erubi 1.12.0
-Installing mini_portile2 2.8.1
-Installing builder 3.2.4
+
+Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/minitest-5.18.0.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/concurrent-ruby-1.2.2.gem`. It is likely that you need to grant write permissions for that path.
+
 Fetching crass 1.0.6
-Installing racc 1.6.2 with native extensions
+
+Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/erubi-1.12.0.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/racc-1.6.2.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/erubi-1.12.0.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/racc-1.6.2.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/erubi-1.12.0.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/concurrent-ruby-1.2.2.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/racc-1.6.2.gem`. It is likely that you need to grant write permissions for that path.
+
 Fetching rack 2.2.6.4
-Installing crass 1.0.6
+
+Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/crass-1.0.6.gem`. It is likely that you need to grant write permissions for that path.
+
 Fetching nio4r 2.5.9
+
+Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/crass-1.0.6.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/crass-1.0.6.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/concurrent-ruby-1.2.2.gem`. It is likely that you need to grant write permissions for that path.
+
 Fetching websocket-extensions 0.1.5
-Installing websocket-extensions 0.1.5
+
+Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/nio4r-2.5.9.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/rack-2.2.6.4.gem`. It is likely that you need to grant write permissions for that path.
+
 Fetching marcel 1.0.2
+
+Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/rack-2.2.6.4.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/nio4r-2.5.9.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/nio4r-2.5.9.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/rack-2.2.6.4.gem`. It is likely that you need to grant write permissions for that path.
+
 Fetching mini_mime 1.1.2
-Installing rack 2.2.6.4
-Installing nio4r 2.5.9 with native extensions
-Installing mini_mime 1.1.2
+
 Fetching date 3.3.3
-Installing marcel 1.0.2
-Installing date 3.3.3 with native extensions
+
+Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/mini_mime-1.1.2.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/websocket-extensions-0.1.5.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/date-3.3.3.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/marcel-1.0.2.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/mini_mime-1.1.2.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/websocket-extensions-0.1.5.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/mini_mime-1.1.2.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/marcel-1.0.2.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/date-3.3.3.gem`. It is likely that you need to grant write permissions for that path.
+
 Fetching timeout 0.3.2
-Using public_suffix 4.0.7
-Using httpclient 2.8.3
-Installing json 2.6.3 with native extensions
-Installing timeout 0.3.2
-Fetching atomos 0.1.3
+
+Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/marcel-1.0.2.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/websocket-extensions-0.1.5.gem`. It is likely that you need to grant write permissions for that path.
+
 Using bundler 2.4.12
-Fetching claide 1.1.0
-Installing atomos 0.1.3
-Fetching fuzzy_match 2.0.4
-Fetching nap 1.1.0
-Installing claide 1.1.0
-Fetching netrc 0.11.0
-Installing nap 1.1.0
-Installing fuzzy_match 2.0.4
-Fetching ffi 1.15.5
-Fetching cocoapods-deintegrate 1.0.5
-Installing netrc 0.11.0
-Fetching cocoapods-downloader 1.6.3
-Installing cocoapods-deintegrate 1.0.5
-Fetching cocoapods-search 1.0.1
-Fetching cocoapods-try 1.2.0
-Installing cocoapods-downloader 1.6.3
-Fetching colored2 3.1.2
-Installing cocoapods-try 1.2.0
-Installing cocoapods-search 1.0.1
-Fetching escape 0.0.4
-Installing colored2 3.1.2
-Installing ffi 1.15.5 with native extensions
-Fetching fourflusher 2.3.1
-Fetching gh_inspector 1.1.3
-Installing escape 0.0.4
-Fetching molinillo 0.8.0
-Installing fourflusher 2.3.1
-Installing gh_inspector 1.1.3
-Fetching ruby-macho 2.5.1
-Installing molinillo 0.8.0
-Fetching nanaimo 0.3.0
 Fetching method_source 1.0.0
-Installing nanaimo 0.3.0
-Installing ruby-macho 2.5.1
-Installing method_source 1.0.0
+
+Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/date-3.3.3.gem`. It is likely that you need to grant write permissions for that path.
+
 Fetching thor 1.2.1
-Using CFPropertyList 3.0.6
-Using i18n 1.12.0
-Using tzinfo 2.0.6
-Fetching sqlite3 1.6.2
-Fetching websocket-driver 0.7.5
-Installing thor 1.2.1
-Fetching rack-test 2.1.0
-Installing websocket-driver 0.7.5 with native extensions
-Installing rack-test 2.1.0
-Fetching sprockets 4.2.0
-Using addressable 2.8.4
-Fetching net-protocol 0.2.1
-Installing sprockets 4.2.0
-Installing net-protocol 0.2.1
-Fetching cocoapods-plugins 1.0.0
-Installing cocoapods-plugins 1.0.0
-Fetching cocoapods-trunk 1.6.0
-Fetching xcodeproj 1.22.0
-Installing cocoapods-trunk 1.6.0
-Using activesupport 6.1.7.3
-Fetching net-pop 0.1.2
-Installing xcodeproj 1.22.0
-Installing net-pop 0.1.2
-Fetching net-smtp 0.3.3
-Fetching globalid 1.1.0
-Installing globalid 1.1.0
-Installing net-smtp 0.3.3
-Installing sqlite3 1.6.2 with native extensions
-Fetching activemodel 6.1.7.3
-Installing activemodel 6.1.7.3
-Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
 
-    current directory: /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/gems/racc-1.6.2/ext/racc/cparse
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /Library/Ruby/Site/2.6.0 -r ./siteconf20230415-3732-15w0c9y.rb extconf.rb
-checking for rb_block_call()... *** extconf.rb failed ***
-Could not create Makefile due to some reason, probably lack of necessary
-libraries and/or headers.  Check the mkmf.log file for more details.  You may
-need configuration options.
+Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/timeout-0.3.2.gem`. It is likely that you need to grant write permissions for that path.
 
-Provided configuration options:
-        --with-opt-dir
-        --without-opt-dir
-        --with-opt-include
-        --without-opt-include=${opt-dir}/include
-        --with-opt-lib
-        --without-opt-lib=${opt-dir}/lib
-        --with-make-prog
-        --without-make-prog
-        --srcdir=.
-        --curdir
-        --ruby=/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/$(RUBY_BASE_NAME)
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:467:in `try_do': The compiler failed to generate an executable file. (RuntimeError)
-You have to install development tools first.
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:546:in `block in try_link0'
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/tmpdir.rb:93:in `mktmpdir'
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:543:in `try_link0'
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:570:in `try_link'
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:782:in `try_func'
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:1069:in `block in have_func'
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:959:in `block in checking_for'
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:361:in `block (2 levels) in postpone'
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:331:in `open'
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:361:in `block in postpone'
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:331:in `open'
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:357:in `postpone'
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:958:in `checking_for'
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:1068:in `have_func'
-        from extconf.rb:6:in `<main>'
+Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/timeout-0.3.2.gem`. It is likely that you need to grant write permissions for that path.
 
-To see why this extension failed to compile, please check the mkmf.log which can be found here:
+Fetching sqlite3 1.4.4
 
-  /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/racc-1.6.2/mkmf.log
+Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/timeout-0.3.2.gem`. It is likely that you need to grant write permissions for that path.
 
-extconf failed, exit code 1
+Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/method_source-1.0.0.gem`. It is likely that you need to grant write permissions for that path.
 
-Gem files will remain installed in /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/gems/racc-1.6.2 for inspection.
-Results logged to /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/racc-1.6.2/gem_make.out
 
-  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:90:in `run'
-  /Library/Ruby/Site/2.6.0/rubygems/ext/ext_conf_builder.rb:48:in `block in build'
-  /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/tempfile.rb:295:in `open'
-  /Library/Ruby/Site/2.6.0/rubygems/ext/ext_conf_builder.rb:28:in `build'
-  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:156:in `build_extension'
-  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:190:in `block in build_extensions'
-  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:187:in `each'
-  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:187:in `build_extensions'
-  /Library/Ruby/Site/2.6.0/rubygems/installer.rb:821:in `build_extensions'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/rubygems_gem_installer.rb:72:in `build_extensions'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/rubygems_gem_installer.rb:28:in `install'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/source/rubygems.rb:198:in `install'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/gem_installer.rb:54:in `install'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/gem_installer.rb:16:in `install_from_spec'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/parallel_installer.rb:156:in `do_install'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/parallel_installer.rb:147:in `block in worker_pool'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:62:in `apply_func'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:57:in `block in process_queue'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:54:in `loop'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:54:in `process_queue'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:90:in `block (2 levels) in create_threads'
+Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/method_source-1.0.0.gem`. It is likely that you need to grant write permissions for that path.
 
-An error occurred while installing racc (1.6.2), and Bundler cannot continue.
+Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/thor-1.2.1.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/method_source-1.0.0.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/thor-1.2.1.gem`. It is likely that you need to grant write permissions for that path.
+
+
+Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/thor-1.2.1.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/sqlite3-1.4.4.gem`. It is likely that you need to grant write permissions for that path.
+
+
+Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/sqlite3-1.4.4.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/sqlite3-1.4.4.gem`. It is likely that you need to grant write permissions for that path.
+
+Bundler::PermissionError: There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/rake-13.0.6.gem`. It is likely that you need to grant write
+permissions for that path.
+  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/shared_helpers.rb:105:in `rescue in filesystem_access'
+  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/shared_helpers.rb:102:in `filesystem_access'
+  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/rubygems_integration.rb:483:in `block in download_gem'
+  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/retry.rb:40:in `run'
+  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/retry.rb:30:in `attempt'
+  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/rubygems_integration.rb:474:in `download_gem'
+  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/source/rubygems.rb:481:in `download_gem'
+  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/source/rubygems.rb:443:in `fetch_gem'
+  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/source/rubygems.rb:427:in `fetch_gem_if_possible'
+  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/source/rubygems.rb:156:in `install'
+  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/gem_installer.rb:54:in `install'
+  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/gem_installer.rb:16:in `install_from_spec'
+  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/parallel_installer.rb:156:in `do_install'
+  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/parallel_installer.rb:84:in `call'
+  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/parallel_installer.rb:67:in `call'
+  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/installer.rb:244:in `install_in_parallel'
+  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/installer.rb:201:in `install'
+  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/installer.rb:89:in `block in run'
+  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/process_lock.rb:19:in `rescue in lock'
+  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/process_lock.rb:15:in `lock'
+  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/installer.rb:71:in `run'
+  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/installer.rb:23:in `install'
+  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/cli/install.rb:62:in `run'
+  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/cli.rb:261:in `block in install'
+  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/settings.rb:131:in `temporary'
+  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/cli.rb:260:in `install'
+  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'
+  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/vendor/thor/lib/thor.rb:392:in `dispatch'
+  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/cli.rb:34:in `dispatch'
+  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/vendor/thor/lib/thor/base.rb:485:in `start'
+  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/cli.rb:28:in `start'
+  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/exe/bundle:45:in `block in <top (required)>'
+  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/lib/bundler/friendly_errors.rb:117:in `with_friendly_errors'
+  /Users/chris/.gem/ruby/2.6.0/gems/bundler-2.4.12/exe/bundle:33:in `<top (required)>'
+  /usr/local/bin/bundle:23:in `load'
+  /usr/local/bin/bundle:23:in `<main>'
+
+An error occurred while installing rake (13.0.6), and Bundler cannot continue.
 
 In Gemfile:
   rails was resolved to 6.1.7.3, which depends on
-    actioncable was resolved to 6.1.7.3, which depends on
-      actionpack was resolved to 6.1.7.3, which depends on
-        actionview was resolved to 6.1.7.3, which depends on
-          rails-dom-testing was resolved to 2.0.3, which depends on
-            nokogiri was resolved to 1.13.10, which depends on
-              racc
-
-
-Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
-
-    current directory: /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/gems/nio4r-2.5.9/ext/nio4r
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /Library/Ruby/Site/2.6.0 -r ./siteconf20230415-3732-15nx4gk.rb extconf.rb
-checking for unistd.h... *** extconf.rb failed ***
-Could not create Makefile due to some reason, probably lack of necessary
-libraries and/or headers.  Check the mkmf.log file for more details.  You may
-need configuration options.
-
-Provided configuration options:
-        --with-opt-dir
-        --without-opt-dir
-        --with-opt-include
-        --without-opt-include=${opt-dir}/include
-        --with-opt-lib
-        --without-opt-lib=${opt-dir}/lib
-        --with-make-prog
-        --without-make-prog
-        --srcdir=.
-        --curdir
-        --ruby=/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/$(RUBY_BASE_NAME)
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:467:in `try_do': The compiler failed to generate an executable file. (RuntimeError)
-You have to install development tools first.
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:585:in `block in try_compile'
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:534:in `with_werror'
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:585:in `try_compile'
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:1109:in `block in have_header'
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:959:in `block in checking_for'
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:361:in `block (2 levels) in postpone'
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:331:in `open'
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:361:in `block in postpone'
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:331:in `open'
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:357:in `postpone'
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:958:in `checking_for'
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:1108:in `have_header'
-        from extconf.rb:18:in `<main>'
-
-To see why this extension failed to compile, please check the mkmf.log which can be found here:
-
-  /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/nio4r-2.5.9/mkmf.log
-
-extconf failed, exit code 1
-
-Gem files will remain installed in /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/gems/nio4r-2.5.9 for inspection.
-Results logged to /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/nio4r-2.5.9/gem_make.out
-
-  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:90:in `run'
-  /Library/Ruby/Site/2.6.0/rubygems/ext/ext_conf_builder.rb:48:in `block in build'
-  /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/tempfile.rb:295:in `open'
-  /Library/Ruby/Site/2.6.0/rubygems/ext/ext_conf_builder.rb:28:in `build'
-  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:156:in `build_extension'
-  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:190:in `block in build_extensions'
-  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:187:in `each'
-  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:187:in `build_extensions'
-  /Library/Ruby/Site/2.6.0/rubygems/installer.rb:821:in `build_extensions'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/rubygems_gem_installer.rb:72:in `build_extensions'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/rubygems_gem_installer.rb:28:in `install'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/source/rubygems.rb:198:in `install'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/gem_installer.rb:54:in `install'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/gem_installer.rb:16:in `install_from_spec'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/parallel_installer.rb:156:in `do_install'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/parallel_installer.rb:147:in `block in worker_pool'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:62:in `apply_func'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:57:in `block in process_queue'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:54:in `loop'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:54:in `process_queue'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:90:in `block (2 levels) in create_threads'
-
-An error occurred while installing nio4r (2.5.9), and Bundler cannot continue.
-
-In Gemfile:
-  rails was resolved to 6.1.7.3, which depends on
-    actioncable was resolved to 6.1.7.3, which depends on
-      nio4r
-
-
-Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
-
-    current directory: /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.5/ext/websocket-driver
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /Library/Ruby/Site/2.6.0 -r ./siteconf20230415-3732-u6boit.rb extconf.rb
-creating Makefile
-
-current directory: /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.5/ext/websocket-driver
-make "DESTDIR=" clean
-
-current directory: /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.5/ext/websocket-driver
-make "DESTDIR="
-make: *** No rule to make target
-`/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/universal-darwin21/ruby/config.h',
-needed by `websocket_mask.o'.  Stop.
-
-make failed, exit code 2
-
-Gem files will remain installed in /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.5 for inspection.
-Results logged to /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/websocket-driver-0.7.5/gem_make.out
-
-  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:90:in `run'
-  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:42:in `block in make'
-  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:34:in `each'
-  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:34:in `make'
-  /Library/Ruby/Site/2.6.0/rubygems/ext/ext_conf_builder.rb:64:in `block in build'
-  /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/tempfile.rb:295:in `open'
-  /Library/Ruby/Site/2.6.0/rubygems/ext/ext_conf_builder.rb:28:in `build'
-  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:156:in `build_extension'
-  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:190:in `block in build_extensions'
-  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:187:in `each'
-  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:187:in `build_extensions'
-  /Library/Ruby/Site/2.6.0/rubygems/installer.rb:821:in `build_extensions'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/rubygems_gem_installer.rb:72:in `build_extensions'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/rubygems_gem_installer.rb:28:in `install'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/source/rubygems.rb:198:in `install'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/gem_installer.rb:54:in `install'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/gem_installer.rb:16:in `install_from_spec'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/parallel_installer.rb:156:in `do_install'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/parallel_installer.rb:147:in `block in worker_pool'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:62:in `apply_func'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:57:in `block in process_queue'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:54:in `loop'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:54:in `process_queue'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:90:in `block (2 levels) in create_threads'
-
-An error occurred while installing websocket-driver (0.7.5), and Bundler cannot continue.
-
-In Gemfile:
-  rails was resolved to 6.1.7.3, which depends on
-    actioncable was resolved to 6.1.7.3, which depends on
-      websocket-driver
-
-
-Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
-
-    current directory: /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/gems/date-3.3.3/ext/date
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /Library/Ruby/Site/2.6.0 -r ./siteconf20230415-3732-9knimw.rb extconf.rb
-checking for rb_category_warn()... *** extconf.rb failed ***
-Could not create Makefile due to some reason, probably lack of necessary
-libraries and/or headers.  Check the mkmf.log file for more details.  You may
-need configuration options.
-
-Provided configuration options:
-        --with-opt-dir
-        --without-opt-dir
-        --with-opt-include
-        --without-opt-include=${opt-dir}/include
-        --with-opt-lib
-        --without-opt-lib=${opt-dir}/lib
-        --with-make-prog
-        --without-make-prog
-        --srcdir=.
-        --curdir
-        --ruby=/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/$(RUBY_BASE_NAME)
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:467:in `try_do': The compiler failed to generate an executable file. (RuntimeError)
-You have to install development tools first.
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:546:in `block in try_link0'
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/tmpdir.rb:93:in `mktmpdir'
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:543:in `try_link0'
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:570:in `try_link'
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:782:in `try_func'
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:1069:in `block in have_func'
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:959:in `block in checking_for'
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:361:in `block (2 levels) in postpone'
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:331:in `open'
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:361:in `block in postpone'
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:331:in `open'
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:357:in `postpone'
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:958:in `checking_for'
-        from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:1068:in `have_func'
-        from extconf.rb:6:in `<main>'
-
-To see why this extension failed to compile, please check the mkmf.log which can be found here:
-
-  /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/date-3.3.3/mkmf.log
-
-extconf failed, exit code 1
-
-Gem files will remain installed in /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/gems/date-3.3.3 for inspection.
-Results logged to /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/date-3.3.3/gem_make.out
-
-  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:90:in `run'
-  /Library/Ruby/Site/2.6.0/rubygems/ext/ext_conf_builder.rb:48:in `block in build'
-  /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/tempfile.rb:295:in `open'
-  /Library/Ruby/Site/2.6.0/rubygems/ext/ext_conf_builder.rb:28:in `build'
-  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:156:in `build_extension'
-  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:190:in `block in build_extensions'
-  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:187:in `each'
-  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:187:in `build_extensions'
-  /Library/Ruby/Site/2.6.0/rubygems/installer.rb:821:in `build_extensions'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/rubygems_gem_installer.rb:72:in `build_extensions'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/rubygems_gem_installer.rb:28:in `install'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/source/rubygems.rb:198:in `install'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/gem_installer.rb:54:in `install'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/gem_installer.rb:16:in `install_from_spec'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/parallel_installer.rb:156:in `do_install'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/parallel_installer.rb:147:in `block in worker_pool'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:62:in `apply_func'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:57:in `block in process_queue'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:54:in `loop'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:54:in `process_queue'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:90:in `block (2 levels) in create_threads'
-
-An error occurred while installing date (3.3.3), and Bundler cannot continue.
-
-In Gemfile:
-  rails was resolved to 6.1.7.3, which depends on
-    actionmailbox was resolved to 6.1.7.3, which depends on
-      mail was resolved to 2.8.1, which depends on
-        net-imap was resolved to 0.3.4, which depends on
-          date
-
-
-Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
-
-    current directory: /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/gems/json-2.6.3/ext/json/ext/generator
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /Library/Ruby/Site/2.6.0 -r ./siteconf20230415-3732-1fgnm05.rb extconf.rb
-creating Makefile
-
-current directory: /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/gems/json-2.6.3/ext/json/ext/generator
-make "DESTDIR=" clean
-
-current directory: /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/gems/json-2.6.3/ext/json/ext/generator
-make "DESTDIR="
-compiling generator.c
-In file included from generator.c:1:
-In file included from ./../fbuffer/fbuffer.h:5:
-In file included from
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby.h:33:
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby/ruby.h:24:10:
-fatal error: 'ruby/config.h' file not found
-#include "ruby/config.h"
-         ^~~~~~~~~~~~~~~
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby/ruby.h:24:10:
-note: did not find header 'config.h' in framework 'ruby' (loaded from
-'/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks')
-1 error generated.
-make: *** [generator.o] Error 1
-
-make failed, exit code 2
-
-Gem files will remain installed in /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/gems/json-2.6.3 for inspection.
-Results logged to /Users/chris/GME/PME 12.21.07/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/json-2.6.3/gem_make.out
-
-  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:90:in `run'
-  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:42:in `block in make'
-  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:34:in `each'
-  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:34:in `make'
-  /Library/Ruby/Site/2.6.0/rubygems/ext/ext_conf_builder.rb:64:in `block in build'
-  /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/tempfile.rb:295:in `open'
-  /Library/Ruby/Site/2.6.0/rubygems/ext/ext_conf_builder.rb:28:in `build'
-  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:156:in `build_extension'
-  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:190:in `block in build_extensions'
-  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:187:in `each'
-  /Library/Ruby/Site/2.6.0/rubygems/ext/builder.rb:187:in `build_extensions'
-  /Library/Ruby/Site/2.6.0/rubygems/installer.rb:821:in `build_extensions'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/rubygems_gem_installer.rb:72:in `build_extensions'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/rubygems_gem_installer.rb:28:in `install'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/source/rubygems.rb:198:in `install'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/gem_installer.rb:54:in `install'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/gem_installer.rb:16:in `install_from_spec'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/parallel_installer.rb:156:in `do_install'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/installer/parallel_installer.rb:147:in `block in worker_pool'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:62:in `apply_func'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:57:in `block in process_queue'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:54:in `loop'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:54:in `process_queue'
-  /Library/Ruby/Gems/2.6.0/gems/bundler-2.4.12/lib/bundler/worker.rb:90:in `block (2 levels) in create_threads'
-
-An error occurred while installing json (2.6.3), and Bundler cannot continue.
-
-In Gemfile:
-  cocoapods was resolved to 1.12.0, which depends on
-    cocoapods-core was resolved to 1.12.0, which depends on
-      algoliasearch was resolved to 1.27.5, which depends on
-        json
+    railties was resolved to 6.1.7.3, which depends on
+      rake
