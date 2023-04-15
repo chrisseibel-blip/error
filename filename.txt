@@ -1,4 +1,4 @@
-Chriss-Air:GME chris$ bundle install
+Chriss-Air:GME chris$ bundle
 Fetching gem metadata from https://rubygems.org/...........
 Resolving dependencies...
 Fetching rake 13.0.6
@@ -9,24 +9,26 @@ Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::Pe
 
 Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/rake-13.0.6.gem`. It is likely that you need to grant write permissions for that path.
 
+Fetching concurrent-ruby 1.2.2
+Fetching builder 3.2.4
 Fetching minitest 5.18.0
 Fetching zeitwerk 2.6.7
-Fetching builder 3.2.4
-Fetching concurrent-ruby 1.2.2
 
 Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/builder-3.2.4.gem`. It is likely that you need to grant write permissions for that path.
 
 Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/zeitwerk-2.6.7.gem`. It is likely that you need to grant write permissions for that path.
 
-Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/minitest-5.18.0.gem`. It is likely that you need to grant write permissions for that path.
+Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/zeitwerk-2.6.7.gem`. It is likely that you need to grant write permissions for that path.
 
 Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/builder-3.2.4.gem`. It is likely that you need to grant write permissions for that path.
 
-Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/zeitwerk-2.6.7.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/minitest-5.18.0.gem`. It is likely that you need to grant write permissions for that path.
+Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/minitest-5.18.0.gem`. It is likely that you need to grant write permissions for that path.
 
 Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/builder-3.2.4.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/concurrent-ruby-1.2.2.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/minitest-5.18.0.gem`. It is likely that you need to grant write permissions for that path.
 
 Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/zeitwerk-2.6.7.gem`. It is likely that you need to grant write permissions for that path.
 
@@ -36,115 +38,113 @@ Fetching racc 1.6.2
 
 Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/minitest-5.18.0.gem`. It is likely that you need to grant write permissions for that path.
 
-Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/concurrent-ruby-1.2.2.gem`. It is likely that you need to grant write permissions for that path.
+Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/erubi-1.12.0.gem`. It is likely that you need to grant write permissions for that path.
 
 Fetching crass 1.0.6
 
-Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/erubi-1.12.0.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/racc-1.6.2.gem`. It is likely that you need to grant write permissions for that path.
+Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/concurrent-ruby-1.2.2.gem`. It is likely that you need to grant write permissions for that path.
 
 Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/erubi-1.12.0.gem`. It is likely that you need to grant write permissions for that path.
 
-Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/racc-1.6.2.gem`. It is likely that you need to grant write permissions for that path.
+Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/racc-1.6.2.gem`. It is likely that you need to grant write permissions for that path.
 
 Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/erubi-1.12.0.gem`. It is likely that you need to grant write permissions for that path.
 
-Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/concurrent-ruby-1.2.2.gem`. It is likely that you need to grant write permissions for that path.
 
-Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/racc-1.6.2.gem`. It is likely that you need to grant write permissions for that path.
-
+Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/racc-1.6.2.gem`. It is likely that you need to grant write permissions for that path.
 Fetching rack 2.2.6.4
 
 Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/crass-1.0.6.gem`. It is likely that you need to grant write permissions for that path.
 
-Fetching nio4r 2.5.9
-
 Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/crass-1.0.6.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/racc-1.6.2.gem`. It is likely that you need to grant write permissions for that path.
 
 Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/crass-1.0.6.gem`. It is likely that you need to grant write permissions for that path.
 
 Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/concurrent-ruby-1.2.2.gem`. It is likely that you need to grant write permissions for that path.
 
+
+Fetching nio4r 2.5.9
 Fetching websocket-extensions 0.1.5
-
-Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/nio4r-2.5.9.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/rack-2.2.6.4.gem`. It is likely that you need to grant write permissions for that path.
-
-Fetching marcel 1.0.2
-
-Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/rack-2.2.6.4.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/nio4r-2.5.9.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/nio4r-2.5.9.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/rack-2.2.6.4.gem`. It is likely that you need to grant write permissions for that path.
-
-Fetching mini_mime 1.1.2
-
-Fetching date 3.3.3
-
-Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/mini_mime-1.1.2.gem`. It is likely that you need to grant write permissions for that path.
 
 Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/websocket-extensions-0.1.5.gem`. It is likely that you need to grant write permissions for that path.
 
-Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/date-3.3.3.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/marcel-1.0.2.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/mini_mime-1.1.2.gem`. It is likely that you need to grant write permissions for that path.
-
 Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/websocket-extensions-0.1.5.gem`. It is likely that you need to grant write permissions for that path.
 
-Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/mini_mime-1.1.2.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/marcel-1.0.2.gem`. It is likely that you need to grant write permissions for that path.
-
-Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/date-3.3.3.gem`. It is likely that you need to grant write permissions for that path.
-
-Fetching timeout 0.3.2
-
-Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/marcel-1.0.2.gem`. It is likely that you need to grant write permissions for that path.
+Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/nio4r-2.5.9.gem`. It is likely that you need to grant write permissions for that path.
 
 Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/websocket-extensions-0.1.5.gem`. It is likely that you need to grant write permissions for that path.
 
-Using bundler 2.4.12
-Fetching method_source 1.0.0
+Fetching marcel 1.0.2
 
-Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/date-3.3.3.gem`. It is likely that you need to grant write permissions for that path.
+Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/marcel-1.0.2.gem`. It is likely that you need to grant write permissions for that path.
 
-Fetching thor 1.2.1
+Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/marcel-1.0.2.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/marcel-1.0.2.gem`. It is likely that you need to grant write permissions for that path.
+
+Fetching mini_mime 1.1.2
+
+Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/nio4r-2.5.9.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/mini_mime-1.1.2.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/mini_mime-1.1.2.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/mini_mime-1.1.2.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/nio4r-2.5.9.gem`. It is likely that you need to grant write permissions for that path.
+
+Fetching date 3.3.3
+
+Fetching timeout 0.3.2
 
 Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/timeout-0.3.2.gem`. It is likely that you need to grant write permissions for that path.
 
 Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/timeout-0.3.2.gem`. It is likely that you need to grant write permissions for that path.
 
-Fetching sqlite3 1.4.4
+Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/date-3.3.3.gem`. It is likely that you need to grant write permissions for that path.
 
 Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/timeout-0.3.2.gem`. It is likely that you need to grant write permissions for that path.
 
+Using bundler 2.4.12
+Fetching method_source 1.0.0
+
+Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/date-3.3.3.gem`. It is likely that you need to grant write permissions for that path.
+
 Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/method_source-1.0.0.gem`. It is likely that you need to grant write permissions for that path.
 
+Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/date-3.3.3.gem`. It is likely that you need to grant write permissions for that path.
 
 Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/method_source-1.0.0.gem`. It is likely that you need to grant write permissions for that path.
 
-Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/thor-1.2.1.gem`. It is likely that you need to grant write permissions for that path.
-
 Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/method_source-1.0.0.gem`. It is likely that you need to grant write permissions for that path.
 
-Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/thor-1.2.1.gem`. It is likely that you need to grant write permissions for that path.
+Fetching thor 1.2.1
 
+Fetching sqlite3 1.4.4
 
-Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/thor-1.2.1.gem`. It is likely that you need to grant write permissions for that path.
+Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/thor-1.2.1.gem`. It is likely that you need to grant write permissions for that path.
 
 Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/sqlite3-1.4.4.gem`. It is likely that you need to grant write permissions for that path.
 
+Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/thor-1.2.1.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/rack-2.2.6.4.gem`. It is likely that you need to grant write permissions for that path.
 
 Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/sqlite3-1.4.4.gem`. It is likely that you need to grant write permissions for that path.
 
+Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/thor-1.2.1.gem`. It is likely that you need to grant write permissions for that path.
+
+
 Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/sqlite3-1.4.4.gem`. It is likely that you need to grant write permissions for that path.
+
+
+Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/rack-2.2.6.4.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/rack-2.2.6.4.gem`. It is likely that you need to grant write permissions for that path.
+
 
 Bundler::PermissionError: There was an error while trying to write to `/Library/Ruby/Gems/2.6.0/cache/rake-13.0.6.gem`. It is likely that you need to grant write
 permissions for that path.
